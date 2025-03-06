@@ -26,6 +26,7 @@ public class CavarliModItems {
 	public static final DeferredItem<Item> NOOB_1234567890_OHIO_SPAWN_EGG = REGISTRY.register("noob_1234567890_ohio_spawn_egg", () -> new DeferredSpawnEggItem(CavarliModEntities.NOOB_1234567890_OHIO, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> LOLCAVARLI = REGISTRY.register("lolcavarli", LolcavarliItem::new);
 	public static final DeferredItem<Item> LOLC_1234 = REGISTRY.register("lolc_1234", Lolc1234Item::new);
+	public static final DeferredItem<Item> LOLSUSC = block(CavarliModBlocks.LOLSUSC);
 
 	// Start of user code block custom items
 	// End of user code block custom items

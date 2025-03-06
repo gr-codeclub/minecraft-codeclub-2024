@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cavarli.block.OHIOTOLENOOB1234Block;
+import net.mcreator.cavarli.block.LolsuscBlock;
 import net.mcreator.cavarli.block.LolcavarliPortalBlock;
 import net.mcreator.cavarli.block.Lolc1234PortalBlock;
 import net.mcreator.cavarli.block.CavarliBlockBlock;
@@ -21,6 +22,7 @@ public class CavarliModBlocks {
 	public static final DeferredBlock<Block> OHIOTOLENOOB_1234 = REGISTRY.register("ohiotolenoob_1234", OHIOTOLENOOB1234Block::new);
 	public static final DeferredBlock<Block> LOLCAVARLI_PORTAL = REGISTRY.register("lolcavarli_portal", LolcavarliPortalBlock::new);
 	public static final DeferredBlock<Block> LOLC_1234_PORTAL = REGISTRY.register("lolc_1234_portal", Lolc1234PortalBlock::new);
+	public static final DeferredBlock<Block> LOLSUSC = REGISTRY.register("lolsusc", LolsuscBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -9,7 +9,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.cavarli.procedures.CAVARLInoob1234567890RightclickedProcedure;
+import net.mcreator.cavarli.procedures.Amungus1Procedure;
 
 public class CAVARLInoob1234567890Item extends Item {
 	public CAVARLInoob1234567890Item() {
@@ -19,7 +19,7 @@ public class CAVARLInoob1234567890Item extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		CAVARLInoob1234567890RightclickedProcedure.execute();
+		Amungus1Procedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 		return ar;
 	}
 }

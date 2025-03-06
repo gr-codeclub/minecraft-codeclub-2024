@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/respawn_anchor_top_off",
+    "up": "minecraft:block/respawn_anchor_top",
+    "north": "minecraft:block/end_portal_frame_eye",
+    "east": "minecraft:block/structure_block_data",
+    "south": "minecraft:block/end_portal_frame_top",
+    "west": "minecraft:block/structure_block_data",
+    "particle": "minecraft:block/respawn_anchor_top_off"
+  },
+  "render_type": "solid"
+}

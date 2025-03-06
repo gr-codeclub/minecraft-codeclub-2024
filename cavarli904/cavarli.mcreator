@@ -94,7 +94,7 @@
       "name": "CAVARLInoob1234567890",
       "type": "item",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "cavarl_inoob_1234567890",
       "metadata": {
         "files": [
@@ -265,6 +265,52 @@
           "src/main/resources/assets/cavarli/models/item/lolc_1234.json"
         ]
       }
+    },
+    {
+      "name": "Lolsusc",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolsusc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/block/LolsuscBlock.java",
+          "src/main/resources/assets/cavarli/models/block/lolsusc.json",
+          "src/main/resources/assets/cavarli/models/item/lolsusc.json",
+          "src/main/resources/assets/cavarli/blockstates/lolsusc.json",
+          "src/main/resources/data/cavarli/loot_table/blocks/lolsusc.json"
+        ]
+      }
+    },
+    {
+      "name": "Amungus1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amungus_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/Amungus1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -285,6 +331,7 @@
       "item_group.cavarli.ohiocavarli": "Ohiocavarli",
       "gui.cavarli.cacacacacaca_gui.label_empty": "",
       "item.cavarli.lolcavarli": "Lolcavarli Portal Igniter",
+      "block.cavarli.lolsusc": "Lolsusc",
       "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4",
       "item.cavarli.noob_1234567890_ohio_spawn_egg": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO Spawn Egg",
       "gui.cavarli.cacacacacaca_gui.label_empty1": ""
