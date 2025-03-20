@@ -24,26 +24,5 @@ public class HousebuilderProcedure {
 		xoffset = -2;
 		zoffset = 0;
 		yoffset = -2;
-		for (int index2 = 0; index2 < 3; index2++) {
-			for (int index3 = 0; index3 < 5; index3++) {
-				world.setBlock(BlockPos.containing(xoffset + x, y + yoffset, z + 2), Blocks.STRIPPED_BIRCH_WOOD.defaultBlockState(), 3);
-				world.setBlock(BlockPos.containing(xoffset + x, y + yoffset, z - 2), Blocks.SPRUCE_PLANKS.defaultBlockState(), 3);
-				xoffset = xoffset + 1;
-			}
-			zoffset = zoffset + 1;
-			zoffset = zoffset + 1;
-		}
-		xoffset = -2;
-		zoffset = 0;
-		yoffset = -2;
-		for (int index4 = 0; index4 < 3; index4++) {
-			for (int index5 = 0; index5 < 5; index5++) {
-				world.setBlock(BlockPos.containing(x + 2, y + yoffset, z + zoffset), Blocks.STRIPPED_BIRCH_WOOD.defaultBlockState(), 3);
-				world.setBlock(BlockPos.containing(x - 2, y + yoffset, z - zoffset), Blocks.SPRUCE_PLANKS.defaultBlockState(), 3);
-				xoffset = xoffset + 1;
-			}
-			zoffset = -2;
-			zoffset = zoffset + 1;
-		}
 	}
 }
