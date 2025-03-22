@@ -39,6 +39,7 @@ public class CavarliModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(CavarliModItems.LOLC_1234.get());
+			tabData.accept(CavarliModItems.HOUSE_WAND_TOOL.get());
 
 		}
 	}
