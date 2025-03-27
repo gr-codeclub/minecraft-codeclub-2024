@@ -1,0 +1,79 @@
+{
+  "mod_elements": [
+    {
+      "name": "GokuhouseblockbomboclatOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gokuhouseblockbomboclat_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dbzmod/procedures/GokuhouseblockbomboclatOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gokuhouseblockbomboclat",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gokuhouseblockbomboclat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dbzmod/models/block/gokuhouseblockbomboclat.json",
+          "src/main/resources/data/dbzmod/loot_table/blocks/gokuhouseblockbomboclat.json",
+          "src/main/java/net/mcreator/dbzmod/block/GokuhouseblockbomboclatBlock.java",
+          "src/main/resources/assets/dbzmod/models/item/gokuhouseblockbomboclat.json",
+          "src/main/resources/assets/dbzmod/blockstates/gokuhouseblockbomboclat.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.dbzmod.gokuhouseblockbomboclat": "Gokuhouseblockbomboclat"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dbzmod",
+    "modName": "dbzmod",
+    "version": "1.0.0",
+    "author": "TrainingGR06, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.dbzmod"
+  },
+  "mcreatorVersion": 202400342716
+}
