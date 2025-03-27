@@ -1,5 +1,8 @@
 package net.mcreator.yousefmod.procedures;
 
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
@@ -39,5 +42,16 @@ public class HousefbuilderProcedure {
 			xOffset = -1;
 			zOffset = 1 + zOffset;
 		}
+		world.setBlock(BlockPos.containing(x + 1, y, z + 2), Blocks.GLASS.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x + 1, y, z + 2), Blocks.GLASS.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x - 1, y, z + 2), Blocks.AIR.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x - 1, y + 1, z + 2), Blocks.AIR.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x - 1, y, z + 2), Blocks.SPRUCE_DOOR.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x - 1, y, z + 2), (new Object() {
+			public BlockState with(BlockState _bs, String _property, String _newValue) {
+				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
+				return _prop instanceof EnumProperty _ep && _ep.getValue(_newValue).isPresent() ? _bs.setValue(_ep, (Enum) _ep.getValue(_newValue).get()) : _bs;
+			}
+		}.with(Blocks.SPRUCE_DOOR.defaultBlockState(), "half", "upper")), 3);
 	}
 }
