@@ -68,12 +68,12 @@ public class HouseOnBlockRightClickedProcedure {
 		}
 		world.setBlock(BlockPos.containing(x + 1, y, z + 2), Blocks.AIR.defaultBlockState(), 3);
 		world.setBlock(BlockPos.containing(x - 1, y + 1, z + 2), Blocks.AIR.defaultBlockState(), 3);
-		world.setBlock(BlockPos.containing(x - 1, y, z - 2), Blocks.OAK_DOOR.defaultBlockState(), 3);
 		world.setBlock(BlockPos.containing(x - 1, y + 1, z + 2), (new Object() {
 			public BlockState with(BlockState _bs, String _property, String _newValue) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
 				return _prop instanceof EnumProperty _ep && _ep.getValue(_newValue).isPresent() ? _bs.setValue(_ep, (Enum) _ep.getValue(_newValue).get()) : _bs;
 			}
-		}.with(Blocks.SPRUCE_DOOR.defaultBlockState(), "half", "upper")), 3);
+		}.with(Blocks.OAK_DOOR.defaultBlockState(), "half", "upper")), 3);
+		world.setBlock(BlockPos.containing(x - 1, y, z - 2), Blocks.OAK_DOOR.defaultBlockState(), 3);
 	}
 }
