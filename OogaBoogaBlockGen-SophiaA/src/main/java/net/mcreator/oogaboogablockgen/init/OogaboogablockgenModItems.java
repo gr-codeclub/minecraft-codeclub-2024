@@ -38,6 +38,7 @@ public class OogaboogablockgenModItems {
 	public static final DeferredItem<Item> BUILDS_OBSIDIAN = block(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN);
 	public static final DeferredItem<Item> BUILDBLOCKKKKKKKKKKKKKK = block(OogaboogablockgenModBlocks.BUILDBLOCKKKKKKKKKKKKKK);
 	public static final DeferredItem<Item> HYPERVENTALATION_SAMSUNG_REFRIDGERATION_WAND = REGISTRY.register("hyperventalation_samsung_refridgeration_wand", HyperventalationSamsungRefridgerationWandItem::new);
+	public static final DeferredItem<Item> HELP_ME_PLEASE_JACOB_TRAPPED_ME_IN_HIS_BASEMENT = block(OogaboogablockgenModBlocks.HELP_ME_PLEASE_JACOB_TRAPPED_ME_IN_HIS_BASEMENT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

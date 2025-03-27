@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "oogaboogablockgen:blocks/help_me_please_jacob_trapped_me_in_his_basement",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "oogaboogablockgen:help_me_please_jacob_trapped_me_in_his_basement"
+        }
+      ]
+    }
+  ]
+}

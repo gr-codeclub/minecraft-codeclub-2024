@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.oogaboogablockgen.block.TheBuildsPortalBlock;
 import net.mcreator.oogaboogablockgen.block.TheBuildWaterBlock;
 import net.mcreator.oogaboogablockgen.block.OogaBoogaBlockGenBlock;
+import net.mcreator.oogaboogablockgen.block.HelpMePleaseJamillaTrappedMeInHerBasementBlock;
 import net.mcreator.oogaboogablockgen.block.GoofyAhhBlockYIPPEEEBlock;
 import net.mcreator.oogaboogablockgen.block.BuildsObsidioBlock;
 import net.mcreator.oogaboogablockgen.block.BUILDBLOCKKKKKKKKKKKKKKBlock;
@@ -25,6 +26,7 @@ public class OogaboogablockgenModBlocks {
 	public static final DeferredBlock<Block> THE_BUILDS_PORTAL = REGISTRY.register("the_builds_portal", TheBuildsPortalBlock::new);
 	public static final DeferredBlock<Block> BUILDS_OBSIDIAN = REGISTRY.register("builds_obsidian", BuildsObsidioBlock::new);
 	public static final DeferredBlock<Block> BUILDBLOCKKKKKKKKKKKKKK = REGISTRY.register("buildblockkkkkkkkkkkkkk", BUILDBLOCKKKKKKKKKKKKKKBlock::new);
+	public static final DeferredBlock<Block> HELP_ME_PLEASE_JACOB_TRAPPED_ME_IN_HIS_BASEMENT = REGISTRY.register("help_me_please_jacob_trapped_me_in_his_basement", HelpMePleaseJamillaTrappedMeInHerBasementBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

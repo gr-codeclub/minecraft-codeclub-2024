@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "oogaboogablockgen:buildblockkkkkkkkkkkkkk",
     "minecraft:moss_block",
-    "minecraft:glass"
+    "minecraft:glass",
+    "oogaboogablockgen:buildblockkkkkkkkkkkkkk"
   ]
 }

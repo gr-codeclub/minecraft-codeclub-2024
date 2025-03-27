@@ -27,6 +27,7 @@ public class OogaboogablockgenModTabs {
 			tabData.accept(OogaboogablockgenModBlocks.GOOFY_AHH_BLOCK_YIPPEEE.get().asItem());
 			tabData.accept(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN.get().asItem());
 			tabData.accept(OogaboogablockgenModItems.HYPERVENTALATION_SAMSUNG_REFRIDGERATION_WAND.get());
+			tabData.accept(OogaboogablockgenModBlocks.HELP_ME_PLEASE_JACOB_TRAPPED_ME_IN_HIS_BASEMENT.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 
