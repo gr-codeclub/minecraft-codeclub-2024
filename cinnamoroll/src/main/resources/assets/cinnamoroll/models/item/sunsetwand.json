@@ -2,5 +2,19 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "cinnamoroll:item/candy_floss"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cinnamoroll:sunsetwand_sigma": 0
+      },
+      "model": "cinnamoroll:item/sunsetwand_0"
+    },
+    {
+      "predicate": {
+        "cinnamoroll:sunsetwand_sigma": 1
+      },
+      "model": "cinnamoroll:item/sunsetwand_1"
+    }
+  ]
 }

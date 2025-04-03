@@ -7,11 +7,19 @@ package net.mcreator.cinnamoroll.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.item.ItemProperties;
 
+import net.mcreator.cinnamoroll.procedures.SunsetwandPropertyValueProviderProcedure;
 import net.mcreator.cinnamoroll.item.SunsetwandItem;
 import net.mcreator.cinnamoroll.item.BobTheBuilderItem;
 import net.mcreator.cinnamoroll.CinnamorollMod;
@@ -29,5 +37,17 @@ public class CinnamorollModItems {
 	// End of user code block custom items
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ItemsClientSideHandler {
+		@SubscribeEvent
+		@OnlyIn(Dist.CLIENT)
+		public static void clientLoad(FMLClientSetupEvent event) {
+			event.enqueueWork(() -> {
+				ItemProperties.register(SUNSETWAND.get(), ResourceLocation.parse("cinnamoroll:sunsetwand_sigma"),
+						(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) SunsetwandPropertyValueProviderProcedure.execute(entity != null ? entity.level() : clientWorld));
+			});
+		}
 	}
 }

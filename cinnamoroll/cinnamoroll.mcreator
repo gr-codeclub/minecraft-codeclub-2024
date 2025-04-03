@@ -129,6 +129,8 @@
       "registry_name": "sunsetwand",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cinnamoroll/models/item/sunsetwand_1.json",
+          "src/main/resources/assets/cinnamoroll/models/item/sunsetwand_0.json",
           "src/main/java/net/mcreator/cinnamoroll/item/SunsetwandItem.java",
           "src/main/resources/assets/cinnamoroll/models/item/sunsetwand.json"
         ]
@@ -344,6 +346,25 @@
             "name": "z",
             "type": "number"
           },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunsetwandPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunsetwand_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/SunsetwandPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
           {
             "name": "world",
             "type": "world"
