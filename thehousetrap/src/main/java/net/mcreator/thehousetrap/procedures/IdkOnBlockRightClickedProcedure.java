@@ -42,6 +42,7 @@ public class IdkOnBlockRightClickedProcedure {
 			for (int index5 = 0; index5 < 5; index5++) {
 				world.setBlock(BlockPos.containing(x - 2, y + yoffset, z + zoffeset), ThehousetrapModBlocks.COSYBLOCK.get().defaultBlockState(), 3);
 				world.setBlock(BlockPos.containing(x + 2, y + yoffset, z + zoffeset), Blocks.STRIPPED_CHERRY_LOG.defaultBlockState(), 3);
+				zoffeset = xoffset + 1;
 			}
 			zoffeset = -2;
 			yoffset = yoffset + 1;
