@@ -33,7 +33,18 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
+    "customProperties": [
+      {
+        "arrayData": [
+          "roof",
+          "wall",
+          "floor"
+        ],
+        "name": "CUSTOM:f",
+        "type": "string",
+        "value": "roof"
+      }
+    ],
     "name": "Football",
     "specialInformation": {
       "fixedValue": []
@@ -80,7 +91,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
