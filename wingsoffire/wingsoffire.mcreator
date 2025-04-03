@@ -1,0 +1,479 @@
+{
+  "mod_elements": [
+    {
+      "name": "WingsOfFireex",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_of_fireex",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/block/wings_of_fireex.json",
+          "src/main/java/net/mcreator/wingsoffire/block/entity/WingsOfFireexBlockEntity.java",
+          "src/main/resources/assets/wingsoffire/models/item/wings_of_fireex.json",
+          "src/main/java/net/mcreator/wingsoffire/block/WingsOfFireexBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/wings_of_fireex.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/wings_of_fireex.json"
+        ]
+      }
+    },
+    {
+      "name": "WingsOfFireexRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_of_fireex_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WingsOfFireexEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wings_of_fireex_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WingsOfFireexOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_of_fireex_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "GlorysTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glorys_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Gloryandthehiddenkingdom",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gloryandthehiddenkingdom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/gloryandthehiddenkingdom.json",
+          "src/main/java/net/mcreator/wingsoffire/item/GloryandthehiddenkingdomItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GloryandthehiddenkingdomRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gloryandthehiddenkingdom_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/GloryandthehiddenkingdomRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WingsOfFireexOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_of_fireex_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Checkersgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkersgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/client/gui/CheckersguiScreen.java",
+          "src/main/java/net/mcreator/wingsoffire/world/inventory/CheckersguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Checkers",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/CheckersBlock.java",
+          "src/main/resources/assets/wingsoffire/models/item/checkers.json",
+          "src/main/resources/assets/wingsoffire/models/block/checkers.json",
+          "src/main/java/net/mcreator/wingsoffire/block/entity/CheckersBlockEntity.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/checkers.json",
+          "src/main/resources/assets/wingsoffire/blockstates/checkers.json"
+        ]
+      }
+    },
+    {
+      "name": "CheckersOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkers_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/CheckersOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Funblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/entity/FunblockBlockEntity.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/funblock.json",
+          "src/main/resources/assets/wingsoffire/models/item/funblock.json",
+          "src/main/java/net/mcreator/wingsoffire/block/FunblockBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/funblock.json",
+          "src/main/resources/assets/wingsoffire/models/block/funblock.json"
+        ]
+      }
+    },
+    {
+      "name": "WingsFuelLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_fuel_label",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/WingsFuelLabelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Anikawof",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anikawof",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/neoforge/biome_modifier/anikawof_biome_modifier.json",
+          "src/main/resources/assets/wingsoffire/models/item/anikawof_spawn_egg.json",
+          "src/main/java/net/mcreator/wingsoffire/client/renderer/AnikawofRenderer.java",
+          "src/main/java/net/mcreator/wingsoffire/entity/AnikawofEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Momofrogsigma",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "momofrogsigma",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/blockstates/momofrogsigma.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/momofrogsigma.json",
+          "src/main/resources/assets/wingsoffire/models/item/momofrogsigma.json",
+          "src/main/java/net/mcreator/wingsoffire/block/MomofrogsigmaBlock.java",
+          "src/main/resources/assets/wingsoffire/models/block/momofrogsigma.json"
+        ]
+      }
+    },
+    {
+      "name": "Momofrogdimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "momofrogdimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/momofrogdimension.json",
+          "src/main/java/net/mcreator/wingsoffire/world/dimension/MomofrogdimensionDimension.java",
+          "src/main/resources/assets/wingsoffire/models/block/momofrogdimension_portal_ew.json",
+          "src/main/java/net/mcreator/wingsoffire/world/teleporter/MomofrogdimensionTeleporter.java",
+          "src/main/resources/data/wingsoffire/dimension/momofrogdimension.json",
+          "src/main/resources/assets/wingsoffire/blockstates/momofrogdimension_portal.json",
+          "src/main/java/net/mcreator/wingsoffire/world/teleporter/MomofrogdimensionPortalShape.java",
+          "src/main/resources/assets/wingsoffire/models/block/momofrogdimension_portal_ns.json",
+          "src/main/java/net/mcreator/wingsoffire/item/MomofrogdimensionItem.java",
+          "src/main/java/net/mcreator/wingsoffire/block/MomofrogdimensionPortalBlock.java",
+          "src/main/resources/data/wingsoffire/dimension_type/momofrogdimension.json"
+        ]
+      }
+    },
+    {
+      "name": "Pollyfrogblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pollyfrogblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/PollyfrogblockBlock.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/pollyfrogblock.json",
+          "src/main/resources/assets/wingsoffire/models/item/pollyfrogblock.json",
+          "src/main/resources/assets/wingsoffire/blockstates/pollyfrogblock.json",
+          "src/main/resources/assets/wingsoffire/models/block/pollyfrogblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Housebuilder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "housebuilder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/HousebuilderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Momolandhouseblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "momolandhouseblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/loot_table/blocks/momolandhouseblock.json",
+          "src/main/resources/assets/wingsoffire/models/item/momolandhouseblock.json",
+          "src/main/resources/assets/wingsoffire/blockstates/momolandhouseblock.json",
+          "src/main/java/net/mcreator/wingsoffire/block/MomolandhouseblockBlock.java",
+          "src/main/resources/assets/wingsoffire/models/block/momolandhouseblock.json",
+          "src/main/java/net/mcreator/wingsoffire/block/entity/MomolandhouseblockBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MomolandhouseblockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "momolandhouseblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/MomolandhouseblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Momofrogsigma"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
+      "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
+      "entity.wingsoffire.anikawof": "Anikawof",
+      "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
+      "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
+      "gui.wingsoffire.checkersgui.label_empty": "",
+      "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
+      "block.wingsoffire.funblock": "Funblock",
+      "item_group.wingsoffire.glorys_tab": "Glorys Tab",
+      "block.wingsoffire.momofrogsigma": "Momofrogsigma",
+      "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
+      "block.wingsoffire.checkers": "Checkers"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wingsoffire",
+    "modName": "wingsoffire",
+    "version": "1.0.0",
+    "author": "TrainingGR06, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.wingsoffire"
+  },
+  "mcreatorVersion": 202400342716
+}
