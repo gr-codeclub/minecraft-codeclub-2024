@@ -112,7 +112,9 @@
       "registry_name": "gloryandthehiddenkingdom",
       "metadata": {
         "files": [
+          "src/main/resources/assets/wingsoffire/models/item/gloryandthehiddenkingdom_1.json",
           "src/main/resources/assets/wingsoffire/models/item/gloryandthehiddenkingdom.json",
+          "src/main/resources/assets/wingsoffire/models/item/gloryandthehiddenkingdom_0.json",
           "src/main/java/net/mcreator/wingsoffire/item/GloryandthehiddenkingdomItem.java"
         ]
       }
@@ -430,6 +432,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "Blocky",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/BlockyBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/blocky.json",
+          "src/main/java/net/mcreator/wingsoffire/block/entity/BlockyBlockEntity.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/blocky.json",
+          "src/main/resources/assets/wingsoffire/models/block/blocky.json",
+          "src/main/resources/assets/wingsoffire/models/item/blocky.json"
+        ]
+      }
+    },
+    {
+      "name": "GloryandthehiddenkingdomPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gloryandthehiddenkingdom_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/GloryandthehiddenkingdomPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheckersOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkers_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/CheckersOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -444,6 +500,7 @@
     "en_us": {
       "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
       "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
+      "block.wingsoffire.blocky": "Blocky",
       "entity.wingsoffire.anikawof": "Anikawof",
       "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",

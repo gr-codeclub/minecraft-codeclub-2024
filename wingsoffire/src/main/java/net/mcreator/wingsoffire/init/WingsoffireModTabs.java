@@ -30,6 +30,7 @@ public class WingsoffireModTabs {
 				tabData.accept(WingsoffireModBlocks.MOMOFROGSIGMA.get().asItem());
 				tabData.accept(WingsoffireModBlocks.POLLYFROGBLOCK.get().asItem());
 				tabData.accept(WingsoffireModBlocks.MOMOLANDHOUSEBLOCK.get().asItem());
+				tabData.accept(WingsoffireModBlocks.BLOCKY.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

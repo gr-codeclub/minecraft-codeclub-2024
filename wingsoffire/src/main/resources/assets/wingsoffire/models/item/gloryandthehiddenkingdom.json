@@ -2,5 +2,19 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "wingsoffire:item/glorysword"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "wingsoffire:gloryandthehiddenkingdom_youtube": 0
+      },
+      "model": "wingsoffire:item/gloryandthehiddenkingdom_0"
+    },
+    {
+      "predicate": {
+        "wingsoffire:gloryandthehiddenkingdom_youtube": 1
+      },
+      "model": "wingsoffire:item/gloryandthehiddenkingdom_1"
+    }
+  ]
 }

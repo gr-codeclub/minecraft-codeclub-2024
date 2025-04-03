@@ -22,16 +22,14 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.Containers;
-import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.wingsoffire.world.inventory.CheckersguiMenu;
-import net.mcreator.wingsoffire.procedures.CheckersOnTickUpdateProcedure;
+import net.mcreator.wingsoffire.procedures.CheckersOnBlockRightClickedProcedure;
 import net.mcreator.wingsoffire.block.entity.CheckersBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -69,19 +67,6 @@ public class CheckersBlock extends Block implements EntityBlock {
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		CheckersOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
 	public InteractionResult useWithoutItem(BlockState blockstate, Level world, BlockPos pos, Player entity, BlockHitResult hit) {
 		super.useWithoutItem(blockstate, world, pos, entity, hit);
 		if (entity instanceof ServerPlayer player) {
@@ -97,6 +82,14 @@ public class CheckersBlock extends Block implements EntityBlock {
 				}
 			}, pos);
 		}
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+		CheckersOnBlockRightClickedProcedure.execute(entity);
 		return InteractionResult.SUCCESS;
 	}
 

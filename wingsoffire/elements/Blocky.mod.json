@@ -2,17 +2,17 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "checkers",
-    "textureTop": "checkers",
-    "textureLeft": "checkers",
-    "textureFront": "checkers",
-    "textureRight": "checkers",
-    "textureBack": "checkers",
+    "texture": "coolblockwof",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 1,
+    "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -34,20 +34,17 @@
       }
     ],
     "customProperties": [],
-    "name": "Checkers",
+    "name": "Blocky",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 0.05,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
       {
         "value": "CUSTOM:GlorysTab"
-      },
-      {
-        "value": "BUILDING_BLOCKS"
       }
     ],
     "destroyTool": "Not specified",
@@ -64,7 +61,7 @@
     "material": {
       "value": "NONE"
     },
-    "tickRate": 1,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -81,47 +78,42 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.0,
+    "speedFactor": 1.1,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isNotColidable": true,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "GROUND"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.snow.step"
     },
     "fallSound": {
-      "value": ""
+      "value": "ambient.soul_sand_valley.mood"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.amethyst_cluster.fall"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.beehive.shear"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.nether_sprouts.break"
     },
-    "luminance": 0,
+    "luminance": 5,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "Checkersgui",
-    "openGUIOnRightClick": true,
-    "inventorySize": 3,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      2
-    ],
-    "inventoryInSlotIDs": [
-      0,
-      1
-    ],
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -130,9 +122,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "CheckersOnBlockRightClicked"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

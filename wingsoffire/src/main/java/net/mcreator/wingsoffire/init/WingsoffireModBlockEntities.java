@@ -19,6 +19,7 @@ import net.mcreator.wingsoffire.block.entity.WingsOfFireexBlockEntity;
 import net.mcreator.wingsoffire.block.entity.MomolandhouseblockBlockEntity;
 import net.mcreator.wingsoffire.block.entity.FunblockBlockEntity;
 import net.mcreator.wingsoffire.block.entity.CheckersBlockEntity;
+import net.mcreator.wingsoffire.block.entity.BlockyBlockEntity;
 import net.mcreator.wingsoffire.WingsoffireMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -28,6 +29,7 @@ public class WingsoffireModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CHECKERS = register("checkers", WingsoffireModBlocks.CHECKERS, CheckersBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> FUNBLOCK = register("funblock", WingsoffireModBlocks.FUNBLOCK, FunblockBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> MOMOLANDHOUSEBLOCK = register("momolandhouseblock", WingsoffireModBlocks.MOMOLANDHOUSEBLOCK, MomolandhouseblockBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> BLOCKY = register("blocky", WingsoffireModBlocks.BLOCKY, BlockyBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -41,5 +43,6 @@ public class WingsoffireModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CHECKERS.get(), (blockEntity, side) -> ((CheckersBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, FUNBLOCK.get(), (blockEntity, side) -> ((FunblockBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, MOMOLANDHOUSEBLOCK.get(), (blockEntity, side) -> ((MomolandhouseblockBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BLOCKY.get(), (blockEntity, side) -> ((BlockyBlockEntity) blockEntity).getItemHandler());
 	}
 }
