@@ -38,6 +38,7 @@ public class YousefmodModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(YousefmodModItems.DRAGONN_SPAWN_EGG.get());
+			tabData.accept(YousefmodModItems.YOYOCHAIR_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

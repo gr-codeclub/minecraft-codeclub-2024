@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.yousefmod.entity.YoyochairEntity;
 import net.mcreator.yousefmod.entity.DragonnEntity;
 import net.mcreator.yousefmod.YousefmodMod;
 
@@ -26,6 +27,10 @@ public class YousefmodModEntities {
 			EntityType.Builder.<DragonnEntity>of(DragonnEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(15.8f, 15.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<YoyochairEntity>> YOYOCHAIR = register("yoyochair",
+			EntityType.Builder.<YoyochairEntity>of(YoyochairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -36,10 +41,12 @@ public class YousefmodModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		DragonnEntity.init(event);
+		YoyochairEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(DRAGONN.get(), DragonnEntity.createAttributes().build());
+		event.put(YOYOCHAIR.get(), YoyochairEntity.createAttributes().build());
 	}
 }

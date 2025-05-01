@@ -518,6 +518,38 @@
           "src/main/resources/data/yousefmod/loot_table/blocks/football.json"
         ]
       }
+    },
+    {
+      "name": "Yoyochair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoyochair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/client/renderer/YoyochairRenderer.java",
+          "src/main/java/net/mcreator/yousefmod/entity/YoyochairEntity.java",
+          "src/main/resources/assets/yousefmod/models/item/yoyochair_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "YoyochairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoyochair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/procedures/YoyochairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -549,6 +581,8 @@
       "block.yousefmod.imadyousefblock": "Imadyousefblock",
       "gui.yousefmod.fanumtax.label_iwontheminischoolcompitistipon": "iwontheminischoolcompitistipon",
       "block.yousefmod.bebea": "Bebea",
+      "item.yousefmod.yoyochair_spawn_egg": "Yoyochair Spawn Egg",
+      "entity.yousefmod.yoyochair": "Yoyochair",
       "biome.yousefmod.testbiome": "Testbiome",
       "gui.yousefmod.fanumtax.label_empty": "",
       "item.yousefmod.dragonn_spawn_egg": "Dragonn Spawn Egg",
