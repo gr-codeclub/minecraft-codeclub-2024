@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.something.entity.KityyJakyEntity;
+import net.mcreator.something.entity.JakyChairEntity;
 import net.mcreator.something.SomethingMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -26,6 +27,10 @@ public class SomethingModEntities {
 			EntityType.Builder.<KityyJakyEntity>of(KityyJakyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 0.7f));
+	public static final DeferredHolder<EntityType<?>, EntityType<JakyChairEntity>> JAKY_CHAIR = register("jaky_chair",
+			EntityType.Builder.<JakyChairEntity>of(JakyChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -36,10 +41,12 @@ public class SomethingModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		KityyJakyEntity.init(event);
+		JakyChairEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(KITYY_JAKY.get(), KityyJakyEntity.createAttributes().build());
+		event.put(JAKY_CHAIR.get(), JakyChairEntity.createAttributes().build());
 	}
 }

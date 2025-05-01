@@ -458,6 +458,54 @@
           "src/main/resources/assets/something/blockstates/absouloutley_not_jaky.json"
         ]
       }
+    },
+    {
+      "name": "JakyChair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaky_chair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/client/renderer/JakyChairRenderer.java",
+          "src/main/java/net/mcreator/something/entity/JakyChairEntity.java",
+          "src/main/resources/assets/something/models/item/jaky_chair_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "JakyChairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaky_chair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/JakyChairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -474,6 +522,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.something.jaky_chair_spawn_egg": "Jaky Chair Spawn Egg",
       "gui.something.jaky_furnace_gui.label_avada_kedavra": "AVADA KEDAVRA",
       "block.something.justinbebe": "JUSTINBEBE",
       "block.something.notwater": "NOTWATER",
@@ -485,6 +534,7 @@
       "item.something.jakys_dimention": "Jakys Dimention Portal Igniter",
       "fluid.something.notwater": "NOTWATER",
       "item.something.overunder": "Overunder Portal Igniter",
+      "entity.something.jaky_chair": "Jaky Chair",
       "item.something.notwater_bucket": "NOTWATER ",
       "entity.something.kityy_jaky": "Kityy Jaky",
       "block.something.epic_games_sword_jaky": "Epic Games Sword Jaky",

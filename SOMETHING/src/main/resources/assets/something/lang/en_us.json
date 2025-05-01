@@ -1,4 +1,5 @@
 {
+  "item.something.jaky_chair_spawn_egg": "Jaky Chair Spawn Egg",
   "gui.something.jaky_furnace_gui.label_avada_kedavra": "AVADA KEDAVRA",
   "block.something.justinbebe": "JUSTINBEBE",
   "block.something.notwater": "NOTWATER",
@@ -10,6 +11,7 @@
   "item.something.jakys_dimention": "Jakys Dimention Portal Igniter",
   "fluid.something.notwater": "NOTWATER",
   "item.something.overunder": "Overunder Portal Igniter",
+  "entity.something.jaky_chair": "Jaky Chair",
   "item.something.notwater_bucket": "NOTWATER ",
   "entity.something.kityy_jaky": "Kityy Jaky",
   "block.something.epic_games_sword_jaky": "Epic Games Sword Jaky",
