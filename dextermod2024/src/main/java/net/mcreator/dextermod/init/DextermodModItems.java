@@ -7,6 +7,7 @@ package net.mcreator.dextermod.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -24,6 +25,7 @@ public class DextermodModItems {
 	public static final DeferredItem<Item> DEXMENSION = REGISTRY.register("dexmension", DexmensionItem::new);
 	public static final DeferredItem<Item> DEXTER_HOUSEBLOCK = block(DextermodModBlocks.DEXTER_HOUSEBLOCK);
 	public static final DeferredItem<Item> ROBHOUSEBLOCK = block(DextermodModBlocks.ROBHOUSEBLOCK);
+	public static final DeferredItem<Item> DEXCHAIR_SPAWN_EGG = REGISTRY.register("dexchair_spawn_egg", () -> new DeferredSpawnEggItem(DextermodModEntities.DEXCHAIR, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
