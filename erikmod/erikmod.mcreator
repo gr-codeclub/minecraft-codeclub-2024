@@ -453,6 +453,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "Erikblue",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikblue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/client/renderer/ErikblueRenderer.java",
+          "src/main/java/net/mcreator/erikmod/entity/ErikblueEntity.java",
+          "src/main/resources/assets/erikmod/models/item/erikblue_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -467,9 +481,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.erikmod.erikblue_spawn_egg": "Erikblue Spawn Egg",
       "item.erikmod.erikwandthebest": "Erikwandthebest",
       "item_group.erikmod.eriktab": "Eriktab",
       "block.erikmod.erikytu": "Erikytu",
+      "entity.erikmod.erikblue": "Erikblue",
       "block.erikmod.aboy": "Aboy",
       "biome.erikmod.freiyr": "Freiyr",
       "item.erikmod.erikiishim_spawn_egg": "Erikiishim Spawn Egg",
