@@ -414,38 +414,6 @@
           "src/main/resources/assets/dextermod/models/item/robhouseblock.json"
         ]
       }
-    },
-    {
-      "name": "JalsonChairOnInitialEntitySpawn",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jalson_chair_on_initial_entity_spawn",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dextermod/procedures/JalsonChairOnInitialEntitySpawnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "JalsonChair",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jalson_chair",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/dextermod/models/item/jalson_chair_spawn_egg.json",
-          "src/main/java/net/mcreator/dextermod/client/renderer/JalsonChairRenderer.java",
-          "src/main/java/net/mcreator/dextermod/entity/JalsonChairEntity.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -463,12 +431,10 @@
       "item_group.dextermod.dextertab": "Dextertab",
       "item.dextermod.platform_wand": "Platform Wand",
       "gui.dextermod.dexter_furnace_gui.label_bob_the_builder": "Bob The Builder",
-      "entity.dextermod.jalson_chair": "Jalson Chair",
       "item.dextermod.dexmension": "Dexmension Portal Igniter",
       "block.dextermod.dexter_houseblock": "Dexter Houseblock",
       "block.dextermod.dexter_face_block": "Dexter Face Block",
-      "block.dextermod.dexter_funace_block": "Dexter Funace Block",
-      "item.dextermod.jalson_chair_spawn_egg": "Jalson Chair Spawn Egg"
+      "block.dextermod.dexter_funace_block": "Dexter Funace Block"
     }
   },
   "foldersRoot": {

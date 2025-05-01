@@ -35,6 +35,10 @@ public class DextermodModTabs {
 			tabData.accept(DextermodModBlocks.DEXTER_FACE_BLOCK.get().asItem());
 			tabData.accept(DextermodModBlocks.DEXTER_HOUSEBLOCK.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(DextermodModItems.JALSON_CHAIR_SPAWN_EGG.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(DextermodModItems.PLATFORM_WAND.get());
