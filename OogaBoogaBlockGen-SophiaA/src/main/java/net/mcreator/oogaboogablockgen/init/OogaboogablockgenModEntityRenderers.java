@@ -10,11 +10,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.oogaboogablockgen.client.renderer.DuckRenderer;
+import net.mcreator.oogaboogablockgen.client.renderer.ChairRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class OogaboogablockgenModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(OogaboogablockgenModEntities.DUCK.get(), DuckRenderer::new);
+		event.registerEntityRenderer(OogaboogablockgenModEntities.CHAIR.get(), ChairRenderer::new);
 	}
 }

@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.oogaboogablockgen.entity.DuckEntity;
+import net.mcreator.oogaboogablockgen.entity.ChairEntity;
 import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -26,6 +27,10 @@ public class OogaboogablockgenModEntities {
 			EntityType.Builder.<DuckEntity>of(DuckEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.4f, 0.7f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ChairEntity>> CHAIR = register("chair",
+			EntityType.Builder.<ChairEntity>of(ChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -36,10 +41,12 @@ public class OogaboogablockgenModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		DuckEntity.init(event);
+		ChairEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(DUCK.get(), DuckEntity.createAttributes().build());
+		event.put(CHAIR.get(), ChairEntity.createAttributes().build());
 	}
 }

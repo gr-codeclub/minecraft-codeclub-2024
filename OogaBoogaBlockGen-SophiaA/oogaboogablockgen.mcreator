@@ -643,6 +643,38 @@
           "src/main/resources/assets/oogaboogablockgen/models/item/help_me_please_jacob_trapped_me_in_his_basement.json"
         ]
       }
+    },
+    {
+      "name": "ChairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/ChairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/chair_spawn_egg.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/entity/ChairEntity.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/client/renderer/ChairRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -723,6 +755,7 @@
       "entity.oogaboogablockgen.duck": "Duck",
       "item.oogaboogablockgen.thanks_for_the_tax_money": "Thanks For The Tax Money",
       "item.oogaboogablockgen.money": "Money",
+      "entity.oogaboogablockgen.chair": "Chair",
       "item.minecraft.potion.effect.best_potion_in_the_game": "Potion of Best Potion In The Game",
       "biome.oogaboogablockgen.james_charles_biome": "James Charles Biome",
       "item.oogaboogablockgen.thank_you_for_paying_your_fanum_tax": "Thank You For Paying Your Fanum Tax",
@@ -742,6 +775,7 @@
       "item.oogaboogablockgen.hyperventalation_samsung_refridgeration_wand": "Hyperventalation Samsung Refridgeration Wand",
       "item.oogaboogablockgen.the_build_water_bucket": "The Build Water Bucket",
       "item.minecraft.splash_potion.effect.best_potion_in_the_game": "Splash Potion of Best Potion In The Game",
+      "item.oogaboogablockgen.chair_spawn_egg": "Chair Spawn Egg",
       "item.minecraft.lingering_potion.effect.best_potion_in_the_game": "Lingering Potion of Best Potion In The Game",
       "item.oogaboogablockgen.ogb_wand": "OGB Wand"
     }
