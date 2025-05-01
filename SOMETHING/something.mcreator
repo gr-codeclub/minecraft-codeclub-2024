@@ -470,7 +470,29 @@
           "src/main/java/net/mcreator/something/client/renderer/JakyChairRenderer.java",
           "src/main/java/net/mcreator/something/entity/JakyChairEntity.java",
           "src/main/resources/assets/something/models/item/jaky_chair_spawn_egg.json"
-        ]
+        ],
+        "dependencies": [
+                  {
+                    "name": "entity",
+                    "type": "entity"
+                  },
+                  {
+                    "name": "x",
+                    "type": "number"
+                  },
+                  {
+                    "name": "y",
+                    "type": "number"
+                  },
+                  {
+                    "name": "z",
+                    "type": "number"
+                  },
+                  {
+                    "name": "world",
+                    "type": "world"
+                  }
+                ]
       }
     },
     {
@@ -503,6 +525,24 @@
           {
             "name": "world",
             "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoldemortIsStealingMyShampooOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voldemort_is_stealing_my_shampoo_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/VoldemortIsStealingMyShampooOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }

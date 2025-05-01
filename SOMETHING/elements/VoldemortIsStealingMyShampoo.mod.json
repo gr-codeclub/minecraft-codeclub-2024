@@ -127,8 +127,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "VoldemortIsStealingMyShampooOnTickUpdate"
+    "onRightClicked": {
+      "name": "VoldemortIsStealingMyShampooOnBlockRightClicked"
     },
     "onRandomUpdateEvent": {
       "name": "VoldemortIsStealingMyShampooOnRandomClientDisplayTick"
