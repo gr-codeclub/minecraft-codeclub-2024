@@ -1,12 +1,14 @@
 {
-  "item.cavarli.house_wand_tool": "House Wand",
+  "item.cavarli.cavarli_chair_spawn_egg": "Cavarli Chair Spawn Egg",
   "block.cavarli.cavarli_block": "Cavarli Block",
-  "item.cavarli.lolc_1234": "Lolc 1 2 3 4 Portal Igniter",
   "item.cavarli.cavarl_inoob_1234567890": "CAVARL Inoob 1 2 3 4 5 6 7 8 9 0",
-  "entity.cavarli.noob_1234567890_ohio": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO",
   "item_group.cavarli.ohiocavarli": "Ohiocavarli",
-  "gui.cavarli.cacacacacaca_gui.label_empty": "",
+  "entity.cavarli.cavarli_chair": "Cavarli Chair",
   "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4",
-  "item.cavarli.noob_1234567890_ohio_spawn_egg": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO Spawn Egg",
-  "gui.cavarli.cacacacacaca_gui.label_empty1": ""
+  "gui.cavarli.cacacacacaca_gui.label_empty1": "",
+  "item.cavarli.house_wand_tool": "House Wand",
+  "item.cavarli.lolc_1234": "Lolc 1 2 3 4 Portal Igniter",
+  "entity.cavarli.noob_1234567890_ohio": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO",
+  "gui.cavarli.cacacacacaca_gui.label_empty": "",
+  "item.cavarli.noob_1234567890_ohio_spawn_egg": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO Spawn Egg"
 }
