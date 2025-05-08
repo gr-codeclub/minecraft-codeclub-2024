@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.dextermod.entity.DexchairEntity;
 import net.mcreator.dextermod.DextermodMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
