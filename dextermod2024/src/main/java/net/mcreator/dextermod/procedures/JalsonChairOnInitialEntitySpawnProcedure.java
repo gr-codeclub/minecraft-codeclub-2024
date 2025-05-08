@@ -2,11 +2,13 @@ package net.mcreator.dextermod.procedures;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.core.Direction;
 
 public class JalsonChairOnInitialEntitySpawnProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
+		Direction playerLocation = Direction.NORTH;
 		{
 			Entity _ent = entity;
 			_ent.setYRot(0);
