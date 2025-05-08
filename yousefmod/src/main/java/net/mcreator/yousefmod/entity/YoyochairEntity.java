@@ -67,7 +67,7 @@ public class YoyochairEntity extends PathfinderMob {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
-		YoyochairOnInitialEntitySpawnProcedure.execute(this);
+		YoyochairOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
 		return retval;
 	}
 
