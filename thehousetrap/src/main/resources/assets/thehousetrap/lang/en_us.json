@@ -1,13 +1,15 @@
 {
-  "block.thehousetrap.cosyblock": "Cosyblock",
   "block.thehousetrap.ciraeblock": "Ciraeblock",
   "block.thehousetrap.ciraehouse": "Ciraehouse",
-  "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
+  "item.thehousetrap.cirae_chair_spawn_egg": "Cirae Chair Spawn Egg",
   "item_group.thehousetrap.froggy": "Froggy",
   "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
   "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
   "item.thehousetrap.squidgame": "Squidgame Portal Igniter",
   "item.thehousetrap.cirae_froggy": "Cirae Froggy",
-  "block.thehousetrap.hi": "Hi",
-  "entity.thehousetrap.ciraewolf": "Ciraewolf"
+  "entity.thehousetrap.ciraewolf": "Ciraewolf",
+  "block.thehousetrap.cosyblock": "Cosyblock",
+  "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
+  "entity.thehousetrap.cirae_chair": "Cirae Chair",
+  "block.thehousetrap.hi": "Hi"
 }

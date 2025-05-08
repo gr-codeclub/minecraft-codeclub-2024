@@ -445,6 +445,38 @@
           "src/main/resources/assets/thehousetrap/models/block/ciraehouse.json"
         ]
       }
+    },
+    {
+      "name": "CiraeChairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_chair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeChairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CiraeChair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thehousetrap/models/item/cirae_chair_spawn_egg.json",
+          "src/main/java/net/mcreator/thehousetrap/entity/CiraeChairEntity.java",
+          "src/main/java/net/mcreator/thehousetrap/client/renderer/CiraeChairRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -457,17 +489,19 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.thehousetrap.cosyblock": "Cosyblock",
       "block.thehousetrap.ciraeblock": "Ciraeblock",
       "block.thehousetrap.ciraehouse": "Ciraehouse",
-      "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
+      "item.thehousetrap.cirae_chair_spawn_egg": "Cirae Chair Spawn Egg",
       "item_group.thehousetrap.froggy": "Froggy",
       "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
       "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
       "item.thehousetrap.squidgame": "Squidgame Portal Igniter",
       "item.thehousetrap.cirae_froggy": "Cirae Froggy",
-      "block.thehousetrap.hi": "Hi",
-      "entity.thehousetrap.ciraewolf": "Ciraewolf"
+      "entity.thehousetrap.ciraewolf": "Ciraewolf",
+      "block.thehousetrap.cosyblock": "Cosyblock",
+      "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
+      "entity.thehousetrap.cirae_chair": "Cirae Chair",
+      "block.thehousetrap.hi": "Hi"
     }
   },
   "foldersRoot": {

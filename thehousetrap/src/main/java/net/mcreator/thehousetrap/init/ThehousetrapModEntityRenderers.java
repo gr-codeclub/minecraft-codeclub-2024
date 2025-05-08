@@ -10,11 +10,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.thehousetrap.client.renderer.CiraewolfRenderer;
+import net.mcreator.thehousetrap.client.renderer.CiraeChairRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ThehousetrapModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ThehousetrapModEntities.CIRAEWOLF.get(), CiraewolfRenderer::new);
+		event.registerEntityRenderer(ThehousetrapModEntities.CIRAE_CHAIR.get(), CiraeChairRenderer::new);
 	}
 }
