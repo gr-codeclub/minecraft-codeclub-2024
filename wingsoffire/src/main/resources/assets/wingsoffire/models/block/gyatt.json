@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/gyatt",
+    "up": "wingsoffire:block/gyatt",
+    "north": "wingsoffire:block/gyatt",
+    "east": "wingsoffire:block/gyatt",
+    "south": "wingsoffire:block/gyatt",
+    "west": "wingsoffire:block/gyatt",
+    "particle": "wingsoffire:block/gyatt"
+  },
+  "render_type": "solid"
+}

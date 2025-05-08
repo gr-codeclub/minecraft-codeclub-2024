@@ -14,6 +14,8 @@ import net.mcreator.wingsoffire.block.PollyfrogblockBlock;
 import net.mcreator.wingsoffire.block.MomolandhouseblockBlock;
 import net.mcreator.wingsoffire.block.MomofrogsigmaBlock;
 import net.mcreator.wingsoffire.block.MomofrogdimensionPortalBlock;
+import net.mcreator.wingsoffire.block.IdkBlock;
+import net.mcreator.wingsoffire.block.GyattBlock;
 import net.mcreator.wingsoffire.block.FunblockBlock;
 import net.mcreator.wingsoffire.block.CheckersBlock;
 import net.mcreator.wingsoffire.block.BlockyBlock;
@@ -29,6 +31,8 @@ public class WingsoffireModBlocks {
 	public static final DeferredBlock<Block> POLLYFROGBLOCK = REGISTRY.register("pollyfrogblock", PollyfrogblockBlock::new);
 	public static final DeferredBlock<Block> MOMOLANDHOUSEBLOCK = REGISTRY.register("momolandhouseblock", MomolandhouseblockBlock::new);
 	public static final DeferredBlock<Block> BLOCKY = REGISTRY.register("blocky", BlockyBlock::new);
+	public static final DeferredBlock<Block> GYATT = REGISTRY.register("gyatt", GyattBlock::new);
+	public static final DeferredBlock<Block> IDK = REGISTRY.register("idk", IdkBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

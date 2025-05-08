@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/cutesyslaybakablockj",
+    "up": "wingsoffire:block/cutesyslaybakablockj",
+    "north": "wingsoffire:block/cutesyslaybakablockj",
+    "east": "wingsoffire:block/cutesyslaybakablockj",
+    "south": "wingsoffire:block/cutesyslaybakablockj",
+    "west": "wingsoffire:block/cutesyslaybakablockj",
+    "particle": "wingsoffire:block/cutesyslaybakablockj"
+  },
+  "render_type": "solid"
+}

@@ -486,6 +486,86 @@
           }
         ]
       }
+    },
+    {
+      "name": "Gyatt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyatt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/gyatt.json",
+          "src/main/resources/assets/wingsoffire/models/block/gyatt.json",
+          "src/main/java/net/mcreator/wingsoffire/block/GyattBlock.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/gyatt.json",
+          "src/main/resources/assets/wingsoffire/blockstates/gyatt.json"
+        ]
+      }
+    },
+    {
+      "name": "AnikaChair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anika_chair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/client/renderer/AnikaChairRenderer.java",
+          "src/main/resources/assets/wingsoffire/models/item/anika_chair_spawn_egg.json",
+          "src/main/java/net/mcreator/wingsoffire/entity/AnikaChairEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Idk",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/IdkBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/idk.json",
+          "src/main/resources/assets/wingsoffire/models/item/idk.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/idk.json",
+          "src/main/resources/assets/wingsoffire/models/block/idk.json"
+        ]
+      }
+    },
+    {
+      "name": "AnikaChairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anika_chair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/AnikaChairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -499,13 +579,17 @@
   "language_map": {
     "en_us": {
       "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
+      "item.wingsoffire.anika_chair_spawn_egg": "Anika Chair Spawn Egg",
       "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
       "block.wingsoffire.blocky": "Blocky",
       "entity.wingsoffire.anikawof": "Anikawof",
       "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
+      "block.wingsoffire.idk": "Idk",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "gui.wingsoffire.checkersgui.label_empty": "",
+      "block.wingsoffire.gyatt": "Gyatt",
       "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
+      "entity.wingsoffire.anika_chair": "Anika Chair",
       "block.wingsoffire.funblock": "Funblock",
       "item_group.wingsoffire.glorys_tab": "Glorys Tab",
       "block.wingsoffire.momofrogsigma": "Momofrogsigma",

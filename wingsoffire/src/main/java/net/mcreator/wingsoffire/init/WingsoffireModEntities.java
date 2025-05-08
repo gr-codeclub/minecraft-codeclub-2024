@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.wingsoffire.entity.AnikawofEntity;
+import net.mcreator.wingsoffire.entity.AnikaChairEntity;
 import net.mcreator.wingsoffire.WingsoffireMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -26,6 +27,10 @@ public class WingsoffireModEntities {
 			EntityType.Builder.<AnikawofEntity>of(AnikawofEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.9f, 1.4f));
+	public static final DeferredHolder<EntityType<?>, EntityType<AnikaChairEntity>> ANIKA_CHAIR = register("anika_chair",
+			EntityType.Builder.<AnikaChairEntity>of(AnikaChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -36,10 +41,12 @@ public class WingsoffireModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		AnikawofEntity.init(event);
+		AnikaChairEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ANIKAWOF.get(), AnikawofEntity.createAttributes().build());
+		event.put(ANIKA_CHAIR.get(), AnikaChairEntity.createAttributes().build());
 	}
 }
