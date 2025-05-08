@@ -63,7 +63,7 @@ public class CiraeChairOnInitialEntitySpawnProcedure {
 						_entity.yHeadRotO = _entity.getYRot();
 					}
 				}
-			} else if (Direction.WEST == playerLoc) {
+			} else if (Direction.EAST == playerLoc) {
 				{
 					Entity _ent = entity;
 					_ent.setYRot(-90);
