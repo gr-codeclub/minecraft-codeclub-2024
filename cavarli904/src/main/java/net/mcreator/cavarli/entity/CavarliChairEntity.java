@@ -67,7 +67,7 @@ public class CavarliChairEntity extends PathfinderMob {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
-		CavarliChairOnInitialEntitySpawnProcedure.execute(this);
+		CavarliChairOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
 		return retval;
 	}
 
