@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.something.procedures.JakyChairOnInitialEntitySpawnProcedure;
+import net.mcreator.something.procedures.JakyChairEntityDiesProcedure;
 import net.mcreator.something.init.SomethingModItems;
 
 import javax.annotation.Nullable;
@@ -65,9 +66,15 @@ public class JakyChairEntity extends PathfinderMob {
 	}
 
 	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		JakyChairEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
-		JakyChairOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
+		JakyChairOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ());
 		return retval;
 	}
 
