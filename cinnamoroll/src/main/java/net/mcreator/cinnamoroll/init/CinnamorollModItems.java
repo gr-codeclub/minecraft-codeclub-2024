@@ -7,6 +7,7 @@ package net.mcreator.cinnamoroll.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -32,6 +33,7 @@ public class CinnamorollModItems {
 	public static final DeferredItem<Item> WINTERBLOCK_2 = block(CinnamorollModBlocks.WINTERBLOCK_2);
 	public static final DeferredItem<Item> BOB_THE_BUILDER = REGISTRY.register("bob_the_builder", BobTheBuilderItem::new);
 	public static final DeferredItem<Item> HOUSE = block(CinnamorollModBlocks.HOUSE);
+	public static final DeferredItem<Item> JAMCHAIR_SPAWN_EGG = REGISTRY.register("jamchair_spawn_egg", () -> new DeferredSpawnEggItem(CinnamorollModEntities.JAMCHAIR, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

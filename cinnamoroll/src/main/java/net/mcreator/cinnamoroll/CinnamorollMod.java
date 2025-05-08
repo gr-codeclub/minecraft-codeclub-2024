@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.cinnamoroll.init.CinnamorollModTabs;
 import net.mcreator.cinnamoroll.init.CinnamorollModMenus;
 import net.mcreator.cinnamoroll.init.CinnamorollModItems;
+import net.mcreator.cinnamoroll.init.CinnamorollModEntities;
 import net.mcreator.cinnamoroll.init.CinnamorollModBlocks;
 import net.mcreator.cinnamoroll.init.CinnamorollModBlockEntities;
 
@@ -45,7 +46,7 @@ public class CinnamorollMod {
 		CinnamorollModBlocks.REGISTRY.register(modEventBus);
 		CinnamorollModBlockEntities.REGISTRY.register(modEventBus);
 		CinnamorollModItems.REGISTRY.register(modEventBus);
-
+		CinnamorollModEntities.REGISTRY.register(modEventBus);
 		CinnamorollModTabs.REGISTRY.register(modEventBus);
 
 		CinnamorollModMenus.REGISTRY.register(modEventBus);

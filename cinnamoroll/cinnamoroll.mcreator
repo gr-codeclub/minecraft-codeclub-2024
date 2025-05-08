@@ -371,6 +371,54 @@
           }
         ]
       }
+    },
+    {
+      "name": "Jamchair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jamchair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/client/renderer/JamchairRenderer.java",
+          "src/main/resources/assets/cinnamoroll/models/item/jamchair_spawn_egg.json",
+          "src/main/java/net/mcreator/cinnamoroll/entity/JamchairEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "JamchairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jamchair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/JamchairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -384,10 +432,12 @@
   "language_map": {
     "en_us": {
       "item.cinnamoroll.bob_the_builder": "Bob The Builder Portal Igniter",
+      "entity.cinnamoroll.jamchair": "Jamchair",
       "block.cinnamoroll.winter_land": "Winter Land",
       "block.cinnamoroll.lo_l": "Lo L",
       "block.cinnamoroll.winterblock_2": "Winter Land 2",
       "item_group.cinnamoroll.lollipop": "Lollipop",
+      "item.cinnamoroll.jamchair_spawn_egg": "Jamchair Spawn Egg",
       "item.cinnamoroll.sunsetwand": "Sunsetwand",
       "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet",
       "block.cinnamoroll.house": "House"
