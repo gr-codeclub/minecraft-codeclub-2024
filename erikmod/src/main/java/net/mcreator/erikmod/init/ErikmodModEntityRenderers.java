@@ -10,11 +10,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.erikmod.client.renderer.ErikiishimRenderer;
+import net.mcreator.erikmod.client.renderer.ErikblueRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ErikmodModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ErikmodModEntities.ERIKIISHIM.get(), ErikiishimRenderer::new);
+		event.registerEntityRenderer(ErikmodModEntities.ERIKBLUE.get(), ErikblueRenderer::new);
 	}
 }
