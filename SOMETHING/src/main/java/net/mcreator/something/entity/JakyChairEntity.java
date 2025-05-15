@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.something.procedures.JakyChairOnInitialEntitySpawnProcedure;
+import net.mcreator.something.procedures.JakyChairOnEntityTickUpdateProcedure;
 import net.mcreator.something.procedures.JakyChairEntityDiesProcedure;
 import net.mcreator.something.init.SomethingModItems;
 
@@ -85,6 +86,12 @@ public class JakyChairEntity extends PathfinderMob {
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		JakyChairOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

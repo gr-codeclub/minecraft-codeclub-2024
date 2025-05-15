@@ -123,6 +123,9 @@
     "whenMobDies": {
       "name": "JakyChairEntityDies"
     },
+    "onMobTickUpdate": {
+      "name": "JakyChairOnEntityTickUpdate"
+    },
     "onInitialSpawn": {
       "name": "JakyChairOnInitialEntitySpawn"
     },
