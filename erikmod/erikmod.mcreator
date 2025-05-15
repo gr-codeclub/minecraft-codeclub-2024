@@ -501,6 +501,40 @@
           }
         ]
       }
+    },
+    {
+      "name": "ErikblueOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikblue_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/ErikblueOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
