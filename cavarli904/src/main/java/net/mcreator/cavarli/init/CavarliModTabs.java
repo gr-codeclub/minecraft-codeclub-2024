@@ -35,11 +35,12 @@ public class CavarliModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(CavarliModItems.NOOB_1234567890_OHIO_SPAWN_EGG.get());
+			tabData.accept(CavarliModItems.CAVARLI_CHAIR_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
-			tabData.accept(CavarliModItems.LOLCAVARLI.get());
 			tabData.accept(CavarliModItems.LOLC_1234.get());
+			tabData.accept(CavarliModItems.HOUSE_WAND_TOOL.get());
 
 		}
 	}

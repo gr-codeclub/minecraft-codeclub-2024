@@ -20,7 +20,7 @@ import net.mcreator.cavarli.procedures.CavarliBlockEntityWalksOnTheBlockProcedur
 
 public class CavarliBlockBlock extends Block {
 	public CavarliBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 0f).speedFactor(30f).jumpFactor(90f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 0f).speedFactor(10f).jumpFactor(10f));
 	}
 
 	@Override

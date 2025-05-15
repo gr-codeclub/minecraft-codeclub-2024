@@ -98,8 +98,8 @@
       "registry_name": "cavarl_inoob_1234567890",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cavarli/models/item/cavarl_inoob_1234567890.json",
-          "src/main/java/net/mcreator/cavarli/item/CAVARLInoob1234567890Item.java"
+          "src/main/java/net/mcreator/cavarli/item/CAVARLInoob1234567890Item.java",
+          "src/main/resources/assets/cavarli/models/item/cavarl_inoob_1234567890.json"
         ]
       }
     },
@@ -124,12 +124,12 @@
       "registry_name": "ohiotolenoob_1234",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cavarli/block/entity/OHIOTOLENOOB1234BlockEntity.java",
+          "src/main/java/net/mcreator/cavarli/block/OHIOTOLENOOB1234Block.java",
           "src/main/resources/assets/cavarli/models/item/ohiotolenoob_1234.json",
           "src/main/resources/assets/cavarli/blockstates/ohiotolenoob_1234.json",
-          "src/main/resources/assets/cavarli/models/block/ohiotolenoob_1234.json",
-          "src/main/java/net/mcreator/cavarli/block/OHIOTOLENOOB1234Block.java",
           "src/main/resources/data/cavarli/loot_table/blocks/ohiotolenoob_1234.json",
-          "src/main/java/net/mcreator/cavarli/block/entity/OHIOTOLENOOB1234BlockEntity.java"
+          "src/main/resources/assets/cavarli/models/block/ohiotolenoob_1234.json"
         ]
       }
     },
@@ -223,28 +223,6 @@
       }
     },
     {
-      "name": "Lolcavarli",
-      "type": "dimension",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lolcavarli",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cavarli/dimension_type/lolcavarli.json",
-          "src/main/resources/assets/cavarli/models/block/lolcavarli_portal_ew.json",
-          "src/main/java/net/mcreator/cavarli/block/LolcavarliPortalBlock.java",
-          "src/main/java/net/mcreator/cavarli/item/LolcavarliItem.java",
-          "src/main/resources/assets/cavarli/blockstates/lolcavarli_portal.json",
-          "src/main/resources/data/cavarli/dimension/lolcavarli.json",
-          "src/main/resources/assets/cavarli/models/block/lolcavarli_portal_ns.json",
-          "src/main/java/net/mcreator/cavarli/world/teleporter/LolcavarliPortalShape.java",
-          "src/main/java/net/mcreator/cavarli/world/dimension/LolcavarliDimension.java",
-          "src/main/java/net/mcreator/cavarli/world/teleporter/LolcavarliTeleporter.java",
-          "src/main/resources/assets/cavarli/models/item/lolcavarli.json"
-        ]
-      }
-    },
-    {
       "name": "Lolc1234",
       "type": "dimension",
       "compiles": true,
@@ -274,11 +252,11 @@
       "registry_name": "lolsusc",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cavarli/block/LolsuscBlock.java",
           "src/main/resources/assets/cavarli/models/block/lolsusc.json",
+          "src/main/resources/data/cavarli/loot_table/blocks/lolsusc.json",
           "src/main/resources/assets/cavarli/models/item/lolsusc.json",
           "src/main/resources/assets/cavarli/blockstates/lolsusc.json",
-          "src/main/resources/data/cavarli/loot_table/blocks/lolsusc.json"
+          "src/main/java/net/mcreator/cavarli/block/LolsuscBlock.java"
         ]
       }
     },
@@ -317,8 +295,7 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.STONE#0",
-      "~Blocks.TALLGRASS#1"
+      "~Blocks.STONE#0"
     ]
   },
   "tab_element_order": {},
@@ -330,7 +307,6 @@
       "entity.cavarli.noob_1234567890_ohio": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO",
       "item_group.cavarli.ohiocavarli": "Ohiocavarli",
       "gui.cavarli.cacacacacaca_gui.label_empty": "",
-      "item.cavarli.lolcavarli": "Lolcavarli Portal Igniter",
       "block.cavarli.lolsusc": "Lolsusc",
       "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4",
       "item.cavarli.noob_1234567890_ohio_spawn_egg": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO Spawn Egg",

@@ -1,0 +1,752 @@
+{
+  "mod_elements": [
+    {
+      "name": "OogaBoogaBlockGen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ooga_booga_block_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/blockstates/ooga_booga_block_gen.json",
+          "src/main/resources/assets/oogaboogablockgen/models/item/ooga_booga_block_gen.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/ooga_booga_block_gen.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/OogaBoogaBlockGenBlock.java",
+          "src/main/resources/data/oogaboogablockgen/loot_table/blocks/ooga_booga_block_gen.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/entity/OogaBoogaBlockGenBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SophiaOogaBoogaBlockGen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sophia_ooga_booga_block_gen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/SophiaOogaBoogaBlockGenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoGeneratorForOBblock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "auto_generator_for_o_bblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/AutoGeneratorForOBblockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoPlace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sophia_auto_place",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/AutoPlaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OogaBoogaBlockGenOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ooga_booga_block_gen_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OGBWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogb_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/OGBWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OGBWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogb_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/item/OGBWandItem.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/ogb_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "OogaBoogaBlockGenOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ooga_booga_block_gen_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stars",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stars",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/client/particle/StarsParticle.java",
+          "src/main/resources/assets/oogaboogablockgen/particles/stars.json"
+        ]
+      }
+    },
+    {
+      "name": "GoofyAhhBlockYIPPEEE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goofy_ahh_block_yippeee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/block/entity/GoofyAhhBlockYIPPEEEBlockEntity.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/goofy_ahh_block_yippeee.json",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/goofy_ahh_block_yippeee.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/goofy_ahh_block_yippeee.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/GoofyAhhBlockYIPPEEEBlock.java",
+          "src/main/resources/data/oogaboogablockgen/loot_table/blocks/goofy_ahh_block_yippeee.json"
+        ]
+      }
+    },
+    {
+      "name": "YIPEE",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yipee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/world/inventory/YIPEEMenu.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/client/gui/YIPEEScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Money",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/money.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/item/MoneyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoofyAhhBlockYIPPEEEOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goofy_ahh_block_yippeee_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoneyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oogaboogablockgen/recipe/money_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThankYouForPayingYourFanumTax",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thank_you_for_paying_your_fanum_tax",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/item/ThankYouForPayingYourFanumTaxItem.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/thank_you_for_paying_your_fanum_tax.json"
+        ]
+      }
+    },
+    {
+      "name": "GetMoolah",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_moolah",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/GetMoolahProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheckFuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_fuel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/CheckFuelProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ThanksForTheTaxMoney",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanks_for_the_tax_money",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/thanks_for_the_tax_money.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/item/ThanksForTheTaxMoneyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Duck",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/duck_spawn_egg.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/client/renderer/DuckRenderer.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/entity/DuckEntity.java",
+          "src/main/resources/data/oogaboogablockgen/neoforge/biome_modifier/duck_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "GoofyAhhBlockYIPPEEEOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goofy_ahh_block_yippeee_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnRandomClientDisplayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JamesCharlesBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "james_charles_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oogaboogablockgen/worldgen/configured_feature/james_charles_biome_tree.json",
+          "src/main/resources/data/oogaboogablockgen/worldgen/placed_feature/james_charles_biome_tree.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeTrunkDecorator.java",
+          "src/main/resources/data/oogaboogablockgen/worldgen/biome/james_charles_biome.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/emerald_sword.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/item/EmeraldSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldSwordCraftRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword_craft_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oogaboogablockgen/recipe/emerald_sword_craft_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBuildWater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_build_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/item/TheBuildWaterItem.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/TheBuildWaterBlock.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/fluid/TheBuildWaterFluid.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/fluid/types/TheBuildWaterFluidType.java",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/the_build_water.json",
+          "src/main/resources/assets/oogaboogablockgen/models/item/the_build_water_bucket.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/the_build_water.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBuildsBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_builds_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/TheBuildsBiomeFruitDecorator.java",
+          "src/main/resources/data/oogaboogablockgen/worldgen/placed_feature/the_builds_biome_tree.json",
+          "src/main/resources/data/oogaboogablockgen/worldgen/biome/the_builds_biome.json",
+          "src/main/resources/data/oogaboogablockgen/worldgen/configured_feature/the_builds_biome_tree.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/TheBuildsBiomeTrunkDecorator.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/TheBuildsBiomeLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "TheBuilds",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_builds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/block/the_builds_portal_ns.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/teleporter/TheBuildsPortalShape.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/item/TheBuildsItem.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/dimension/TheBuildsDimension.java",
+          "src/main/resources/data/oogaboogablockgen/dimension_type/the_builds.json",
+          "src/main/resources/data/oogaboogablockgen/dimension/the_builds.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/teleporter/TheBuildsTeleporter.java",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/the_builds_portal.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/the_builds_portal_ew.json",
+          "src/main/resources/assets/oogaboogablockgen/models/item/the_builds.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/TheBuildsPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BuildsObsidio",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builds_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/builds_obsidian.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/BuildsObsidioBlock.java",
+          "src/main/resources/assets/oogaboogablockgen/models/block/builds_obsidian.json",
+          "src/main/resources/data/oogaboogablockgen/loot_table/blocks/builds_obsidian.json",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/builds_obsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "BestPotionYippee",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "best_potion_yippee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/potion/BestPotionYippeeMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "BestPotionInTheGame",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "best_potion_in_the_game",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheBuildsPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_builds_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/TheBuildsPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BestPotionYippeeEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "best_potion_yippee_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/BestPotionYippeeEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BUILDBLOCKKKKKKKKKKKKKK",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buildblockkkkkkkkkkkkkk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oogaboogablockgen/loot_table/blocks/buildblockkkkkkkkkkkkkk.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/buildblockkkkkkkkkkkkkk.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/BUILDBLOCKKKKKKKKKKKKKKBlock.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/buildblockkkkkkkkkkkkkk.json",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/buildblockkkkkkkkkkkkkk.json"
+        ]
+      }
+    },
+    {
+      "name": "HyperventalationSamsungRefridgerationWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperventalation_samsung_refridgeration_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/item/HyperventalationSamsungRefridgerationWandItem.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/hyperventalation_samsung_refridgeration_wand.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:TheBuildsBiome"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:TheBuildWater"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:ThankYouForPayingYourFanumTax"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:TheBuildsBiome",
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:TheBuildsBiome",
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ThanksForTheTaxMoney"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:BUILDBLOCKKKKKKKKKKKKKK",
+      "~Blocks.MOSS_BLOCK",
+      "~Blocks.GLASS"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ThanksForTheTaxMoney"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:TheBuildsBiome",
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:EmeraldSword",
+      "~CUSTOM:ThanksForTheTaxMoney"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:HyperventalationSamsungRefridgerationWand"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.oogaboogablockgen.duck_spawn_egg": "Duck Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.best_potion_in_the_game": "Arrow of Best Potion In The Game",
+      "entity.oogaboogablockgen.duck": "Duck",
+      "item.oogaboogablockgen.thanks_for_the_tax_money": "Thanks For The Tax Money",
+      "item.oogaboogablockgen.money": "Money",
+      "item.minecraft.potion.effect.best_potion_in_the_game": "Potion of Best Potion In The Game",
+      "biome.oogaboogablockgen.james_charles_biome": "James Charles Biome",
+      "item.oogaboogablockgen.thank_you_for_paying_your_fanum_tax": "Thank You For Paying Your Fanum Tax",
+      "item.oogaboogablockgen.emerald_sword": "Emerald Sword",
+      "biome.oogaboogablockgen.the_builds_biome": "The Builds Biome",
+      "gui.oogaboogablockgen.yipee.label_insert_money_to_pay_your_fanum_t": "Insert Money To Pay Your Taxes!",
+      "effect.oogaboogablockgen.best_potion_yippee": "Best Potion Yippee",
+      "block.oogaboogablockgen.buildblockkkkkkkkkkkkkk": "BUILDBLOCKKKKKKKKKKKKKK",
+      "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen",
+      "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
+      "item.oogaboogablockgen.the_builds": "The Builds Portal Igniter",
+      "fluid.oogaboogablockgen.the_build_water": "The Build Water",
+      "block.oogaboogablockgen.goofy_ahh_block_yippeee": "Goofy Ahh Block YIPPEEE",
+      "block.oogaboogablockgen.the_build_water": "The Build Water",
+      "block.oogaboogablockgen.builds_obsidian": "Builds Obsidion",
+      "item.oogaboogablockgen.hyperventalation_samsung_refridgeration_wand": "Hyperventalation Samsung Refridgeration Wand",
+      "item.oogaboogablockgen.the_build_water_bucket": "The Build Water Bucket",
+      "item.minecraft.splash_potion.effect.best_potion_in_the_game": "Splash Potion of Best Potion In The Game",
+      "item.minecraft.lingering_potion.effect.best_potion_in_the_game": "Lingering Potion of Best Potion In The Game",
+      "item.oogaboogablockgen.ogb_wand": "OGB Wand"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "oogaboogablockgen",
+    "modName": "OogaBoogaBlockGen",
+    "version": "1.0.0",
+    "author": "TrainingGR03, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.oogaboogablockgen"
+  },
+  "mcreatorVersion": 202400342716
+}
