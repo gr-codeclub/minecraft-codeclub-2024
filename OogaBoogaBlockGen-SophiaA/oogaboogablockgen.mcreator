@@ -704,6 +704,40 @@
           "src/main/java/net/mcreator/oogaboogablockgen/item/BananaItem.java"
         ]
       }
+    },
+    {
+      "name": "ChairOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/ChairOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -785,8 +819,8 @@
       "item.oogaboogablockgen.banana": "Banana",
       "entity.oogaboogablockgen.duck": "Duck",
       "item.oogaboogablockgen.thanks_for_the_tax_money": "Thanks For The Tax Money",
-      "item.oogaboogablockgen.money": "Money",
       "entity.oogaboogablockgen.chair": "Chair",
+      "item.oogaboogablockgen.money": "Money",
       "item.minecraft.potion.effect.best_potion_in_the_game": "Potion of Best Potion In The Game",
       "biome.oogaboogablockgen.james_charles_biome": "James Charles Biome",
       "item.oogaboogablockgen.thank_you_for_paying_your_fanum_tax": "Thank You For Paying Your Fanum Tax",
