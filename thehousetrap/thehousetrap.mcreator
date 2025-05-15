@@ -1,0 +1,543 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ciraeblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ciraeblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thehousetrap/loot_table/blocks/ciraeblock.json",
+          "src/main/java/net/mcreator/thehousetrap/block/CiraeblockBlock.java",
+          "src/main/resources/assets/thehousetrap/models/item/ciraeblock.json",
+          "src/main/resources/assets/thehousetrap/blockstates/ciraeblock.json",
+          "src/main/resources/assets/thehousetrap/models/block/ciraeblock.json",
+          "src/main/java/net/mcreator/thehousetrap/block/entity/CiraeblockBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CiraeblockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CiraeblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ciraeblock_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeblockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CiraeblockOnBlockRightClicked2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ciraeblock_on_block_right_clicked_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeblockOnBlockRightClicked2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Froggy",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "froggy",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CiraeFroggy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_froggy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thehousetrap/models/item/cirae_froggy.json",
+          "src/main/java/net/mcreator/thehousetrap/item/CiraeFroggyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CiraeFroggyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_froggy_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeFroggyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CiraeblockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeblock_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeblockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CIRAEISTHEBEST",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeisthebest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/block/entity/CIRAEISTHEBESTBlockEntity.java",
+          "src/main/java/net/mcreator/thehousetrap/block/CIRAEISTHEBESTBlock.java",
+          "src/main/resources/assets/thehousetrap/models/item/ciraeisthebest.json",
+          "src/main/resources/data/thehousetrap/loot_table/blocks/ciraeisthebest.json",
+          "src/main/resources/assets/thehousetrap/blockstates/ciraeisthebest.json",
+          "src/main/resources/assets/thehousetrap/models/block/ciraeisthebest.json"
+        ]
+      }
+    },
+    {
+      "name": "CIREISSOSIGMA",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cireissosigma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/world/inventory/CIREISSOSIGMAMenu.java",
+          "src/main/java/net/mcreator/thehousetrap/client/gui/CIREISSOSIGMAScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CIRAEISTHEBESTOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeisthebest_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CIRAEISTHEBESTOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cinmroll",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinmroll",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CinmrollProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ciraewolf",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraewolf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/client/renderer/CiraewolfRenderer.java",
+          "src/main/resources/assets/thehousetrap/models/item/ciraewolf_spawn_egg.json",
+          "src/main/java/net/mcreator/thehousetrap/entity/CiraewolfEntity.java",
+          "src/main/resources/data/thehousetrap/neoforge/biome_modifier/ciraewolf_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Hi",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thehousetrap/loot_table/blocks/hi.json",
+          "src/main/resources/assets/thehousetrap/models/item/hi.json",
+          "src/main/java/net/mcreator/thehousetrap/block/HiBlock.java",
+          "src/main/resources/assets/thehousetrap/blockstates/hi.json",
+          "src/main/resources/assets/thehousetrap/models/block/hi.json"
+        ]
+      }
+    },
+    {
+      "name": "Sigma",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sigma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thehousetrap/recipe/sigma.json"
+        ]
+      }
+    },
+    {
+      "name": "Squidgame",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squidgame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/world/teleporter/SquidgameTeleporter.java",
+          "src/main/java/net/mcreator/thehousetrap/block/SquidgamePortalBlock.java",
+          "src/main/resources/assets/thehousetrap/models/block/squidgame_portal_ns.json",
+          "src/main/java/net/mcreator/thehousetrap/world/teleporter/SquidgamePortalShape.java",
+          "src/main/resources/assets/thehousetrap/models/item/squidgame.json",
+          "src/main/java/net/mcreator/thehousetrap/world/dimension/SquidgameDimension.java",
+          "src/main/java/net/mcreator/thehousetrap/item/SquidgameItem.java",
+          "src/main/resources/assets/thehousetrap/models/block/squidgame_portal_ew.json",
+          "src/main/resources/data/thehousetrap/dimension_type/squidgame.json",
+          "src/main/resources/assets/thehousetrap/blockstates/squidgame_portal.json",
+          "src/main/resources/data/thehousetrap/dimension/squidgame.json"
+        ]
+      }
+    },
+    {
+      "name": "Cosyblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosyblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/block/CosyblockBlock.java",
+          "src/main/resources/data/thehousetrap/loot_table/blocks/cosyblock.json",
+          "src/main/resources/assets/thehousetrap/models/item/cosyblock.json",
+          "src/main/resources/assets/thehousetrap/blockstates/cosyblock.json",
+          "src/main/resources/assets/thehousetrap/models/block/cosyblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Housebuilder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "housebuilder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/HousebuilderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IdkOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/IdkOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ciraehouse",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraehouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thehousetrap/models/item/ciraehouse.json",
+          "src/main/resources/assets/thehousetrap/blockstates/ciraehouse.json",
+          "src/main/java/net/mcreator/thehousetrap/block/CiraehouseBlock.java",
+          "src/main/resources/data/thehousetrap/loot_table/blocks/ciraehouse.json",
+          "src/main/resources/assets/thehousetrap/models/block/ciraehouse.json"
+        ]
+      }
+    },
+    {
+      "name": "CiraeChairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_chair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeChairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CiraeChair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thehousetrap/models/item/cirae_chair_spawn_egg.json",
+          "src/main/java/net/mcreator/thehousetrap/entity/CiraeChairEntity.java",
+          "src/main/java/net/mcreator/thehousetrap/client/renderer/CiraeChairRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.GRASS"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.thehousetrap.ciraeblock": "Ciraeblock",
+      "block.thehousetrap.ciraehouse": "Ciraehouse",
+      "item.thehousetrap.cirae_chair_spawn_egg": "Cirae Chair Spawn Egg",
+      "item_group.thehousetrap.froggy": "Froggy",
+      "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
+      "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
+      "item.thehousetrap.squidgame": "Squidgame Portal Igniter",
+      "item.thehousetrap.cirae_froggy": "Cirae Froggy",
+      "entity.thehousetrap.ciraewolf": "Ciraewolf",
+      "block.thehousetrap.cosyblock": "Cosyblock",
+      "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
+      "entity.thehousetrap.cirae_chair": "Cirae Chair",
+      "block.thehousetrap.hi": "Hi"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thehousetrap",
+    "modName": "thehousetrap",
+    "version": "1.0.0",
+    "author": "TrainingGR11, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.thehousetrap"
+  },
+  "mcreatorVersion": 202400342716
+}
