@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.cinnamoroll.procedures.JamchairOnInitialEntitySpawnProcedure;
+import net.mcreator.cinnamoroll.procedures.JamchairOnEntityTickUpdateProcedure;
 import net.mcreator.cinnamoroll.init.CinnamorollModItems;
 
 import javax.annotation.Nullable;
@@ -78,6 +79,12 @@ public class JamchairEntity extends PathfinderMob {
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		JamchairOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
