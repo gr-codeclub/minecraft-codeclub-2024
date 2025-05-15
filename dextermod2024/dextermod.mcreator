@@ -441,9 +441,43 @@
       "registry_name": "jalson_chair",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dextermod/entity/JalsonChairEntity.java",
           "src/main/resources/assets/dextermod/models/item/jalson_chair_spawn_egg.json",
-          "src/main/java/net/mcreator/dextermod/client/renderer/JalsonChairRenderer.java"
+          "src/main/java/net/mcreator/dextermod/client/renderer/JalsonChairRenderer.java",
+          "src/main/java/net/mcreator/dextermod/entity/JalsonChairEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "JalsonChairOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jalson_chair_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/procedures/JalsonChairOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
