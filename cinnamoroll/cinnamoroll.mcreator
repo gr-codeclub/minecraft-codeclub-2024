@@ -129,6 +129,8 @@
       "registry_name": "sunsetwand",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cinnamoroll/models/item/sunsetwand_1.json",
+          "src/main/resources/assets/cinnamoroll/models/item/sunsetwand_0.json",
           "src/main/java/net/mcreator/cinnamoroll/item/SunsetwandItem.java",
           "src/main/resources/assets/cinnamoroll/models/item/sunsetwand.json"
         ]
@@ -304,6 +306,71 @@
           }
         ]
       }
+    },
+    {
+      "name": "House",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/house.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/HouseBlock.java",
+          "src/main/resources/assets/cinnamoroll/blockstates/house.json",
+          "src/main/resources/assets/cinnamoroll/models/block/house.json",
+          "src/main/resources/assets/cinnamoroll/models/item/house.json"
+        ]
+      }
+    },
+    {
+      "name": "HouseOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/HouseOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunsetwandPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunsetwand_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/SunsetwandPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -322,7 +389,8 @@
       "block.cinnamoroll.winterblock_2": "Winter Land 2",
       "item_group.cinnamoroll.lollipop": "Lollipop",
       "item.cinnamoroll.sunsetwand": "Sunsetwand",
-      "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet"
+      "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet",
+      "block.cinnamoroll.house": "House"
     }
   },
   "foldersRoot": {
