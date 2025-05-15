@@ -4,7 +4,7 @@
       "name": "Ciraeblock",
       "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "ciraeblock",
       "metadata": {
         "files": [
@@ -51,7 +51,7 @@
       "name": "CiraeblockEntityWalksOnTheBlock",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "ciraeblock_entity_walks_on_the_block",
       "metadata": {
         "files": [
@@ -85,7 +85,7 @@
       "name": "CiraeblockOnBlockRightClicked2",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "ciraeblock_on_block_right_clicked_2",
       "metadata": {
         "files": [
@@ -308,7 +308,7 @@
       "name": "Hi",
       "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "hi",
       "metadata": {
         "files": [
@@ -491,6 +491,40 @@
           "src/main/resources/assets/thehousetrap/models/item/cirae_chair_spawn_egg.json",
           "src/main/java/net/mcreator/thehousetrap/entity/CiraeChairEntity.java",
           "src/main/java/net/mcreator/thehousetrap/client/renderer/CiraeChairRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "CiraeChairOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_chair_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeChairOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

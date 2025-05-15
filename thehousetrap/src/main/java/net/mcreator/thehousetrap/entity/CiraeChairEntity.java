@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.thehousetrap.procedures.CiraeChairOnInitialEntitySpawnProcedure;
+import net.mcreator.thehousetrap.procedures.CiraeChairOnEntityTickUpdateProcedure;
 import net.mcreator.thehousetrap.init.ThehousetrapModItems;
 
 import javax.annotation.Nullable;
@@ -78,6 +79,12 @@ public class CiraeChairEntity extends PathfinderMob {
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		CiraeChairOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

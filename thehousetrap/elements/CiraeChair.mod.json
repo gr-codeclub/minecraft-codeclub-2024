@@ -120,6 +120,9 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "onMobTickUpdate": {
+      "name": "CiraeChairOnEntityTickUpdate"
+    },
     "onInitialSpawn": {
       "name": "CiraeChairOnInitialEntitySpawn"
     },
