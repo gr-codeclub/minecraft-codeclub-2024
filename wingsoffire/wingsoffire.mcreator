@@ -566,6 +566,56 @@
           }
         ]
       }
+    },
+    {
+      "name": "Hhshhsshs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hhshhsshs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/hhshhsshs.json",
+          "src/main/resources/assets/wingsoffire/models/block/hhshhsshs.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/hhshhsshs.json",
+          "src/main/java/net/mcreator/wingsoffire/block/HhshhsshsBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/hhshhsshs.json"
+        ]
+      }
+    },
+    {
+      "name": "AnikaChairOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anika_chair_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/AnikaChairOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -583,6 +633,7 @@
       "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
       "block.wingsoffire.blocky": "Blocky",
       "entity.wingsoffire.anikawof": "Anikawof",
+      "block.wingsoffire.hhshhsshs": "Hhshhsshs",
       "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
       "block.wingsoffire.idk": "Idk",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",

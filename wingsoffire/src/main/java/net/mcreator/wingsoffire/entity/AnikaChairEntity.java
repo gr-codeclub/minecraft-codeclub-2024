@@ -22,6 +22,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.wingsoffire.procedures.AnikaChairOnEntityTickUpdateProcedure;
 import net.mcreator.wingsoffire.init.WingsoffireModItems;
 
 public class AnikaChairEntity extends PathfinderMob {
@@ -64,6 +65,12 @@ public class AnikaChairEntity extends PathfinderMob {
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		AnikaChairOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

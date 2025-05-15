@@ -40,6 +40,7 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> GYATT = block(WingsoffireModBlocks.GYATT);
 	public static final DeferredItem<Item> ANIKA_CHAIR_SPAWN_EGG = REGISTRY.register("anika_chair_spawn_egg", () -> new DeferredSpawnEggItem(WingsoffireModEntities.ANIKA_CHAIR, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> IDK = block(WingsoffireModBlocks.IDK);
+	public static final DeferredItem<Item> HHSHHSSHS = block(WingsoffireModBlocks.HHSHHSSHS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/hello",
+    "up": "wingsoffire:block/hello",
+    "north": "wingsoffire:block/hello",
+    "east": "wingsoffire:block/hello",
+    "south": "wingsoffire:block/hello",
+    "west": "wingsoffire:block/hello",
+    "particle": "wingsoffire:block/hello"
+  },
+  "render_type": "solid"
+}
