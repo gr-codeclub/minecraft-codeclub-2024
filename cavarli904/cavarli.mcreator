@@ -295,9 +295,9 @@
       "registry_name": "cavarli_chair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cavarli/models/item/cavarli_chair_spawn_egg.json",
+          "src/main/java/net/mcreator/cavarli/entity/CavarliChairEntity.java",
           "src/main/java/net/mcreator/cavarli/client/renderer/CavarliChairRenderer.java",
-          "src/main/java/net/mcreator/cavarli/entity/CavarliChairEntity.java"
+          "src/main/resources/assets/cavarli/models/item/cavarli_chair_spawn_egg.json"
         ]
       }
     },
@@ -315,6 +315,40 @@
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CavarliChairOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavarli_chair_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/CavarliChairOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }

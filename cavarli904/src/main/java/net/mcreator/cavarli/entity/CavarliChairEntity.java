@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.cavarli.procedures.CavarliChairOnInitialEntitySpawnProcedure;
+import net.mcreator.cavarli.procedures.CavarliChairOnEntityTickUpdateProcedure;
 import net.mcreator.cavarli.init.CavarliModItems;
 
 import javax.annotation.Nullable;
@@ -78,6 +79,12 @@ public class CavarliChairEntity extends PathfinderMob {
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		CavarliChairOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
