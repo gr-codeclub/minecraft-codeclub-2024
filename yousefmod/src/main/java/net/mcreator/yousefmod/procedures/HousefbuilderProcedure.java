@@ -35,14 +35,12 @@ public class HousefbuilderProcedure {
 		zOffset = -2;
 		xOffset = -2;
 		yOffset = 0;
-		for (int index4 = 0; index4 < 3; index4++) {
-			for (int index5 = 0; index5 < 5; index5++) {
-				world.setBlock(BlockPos.containing(x + 2, y + yOffset, z + zOffset), Blocks.SMOOTH_SANDSTONE.defaultBlockState(), 3);
-				world.setBlock(BlockPos.containing(x - 2, y + yOffset, z + zOffset), Blocks.SMOOTH_SANDSTONE.defaultBlockState(), 3);
-				zOffset = 1 + zOffset;
-			}
-			zOffset = -2;
-			yOffset = 1 + yOffset;
+		for (int index4 = 0; index4 < 5; index4++) {
+			world.setBlock(BlockPos.containing(x + 2, y + yOffset, z + zOffset), Blocks.SMOOTH_SANDSTONE.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 2, y + yOffset, z + zOffset), Blocks.SMOOTH_SANDSTONE.defaultBlockState(), 3);
+			zOffset = 1 + zOffset;
 		}
+		zOffset = -2;
+		yOffset = 1 + yOffset;
 	}
 }

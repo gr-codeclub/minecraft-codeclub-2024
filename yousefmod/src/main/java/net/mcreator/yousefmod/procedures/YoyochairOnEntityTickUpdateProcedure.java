@@ -25,5 +25,17 @@ public class YoyochairOnEntityTickUpdateProcedure {
 				}
 			}
 		}
+		if (entity.isVehicle()) {
+			world.addParticle(ParticleTypes.SNEEZE, x, y, z, 1, 1, 1);
+			world.addParticle(ParticleTypes.SNEEZE, x, y, z, (-1), 1, (-1));
+			world.addParticle(ParticleTypes.SNEEZE, x, y, z, 0, 1, 0);
+			world.addParticle(ParticleTypes.SNEEZE, x, y, z, 0, 1, 0);
+			if (Mth.nextInt(RandomSource.create(), 1, 100) >= 99) {
+				for (Entity entityiterator : new ArrayList<>(entity.getPassengers())) {
+					entityiterator.stopRiding();
+					entityiterator.setDeltaMovement(new Vec3(0, 10, 0));
+				}
+			}
+		}
 	}
 }
