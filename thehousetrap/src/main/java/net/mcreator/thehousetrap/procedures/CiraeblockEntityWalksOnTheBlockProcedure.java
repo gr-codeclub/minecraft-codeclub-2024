@@ -7,10 +7,9 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.thehousetrap.init.ThehousetrapModBlocks;
 
 public class CiraeblockEntityWalksOnTheBlockProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, BlockPos pos) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-
-		world.setBlock(pos.relative(entity.getMotionDirection(), 1), ThehousetrapModBlocks.CIRAEBLOCK.get().defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x + (entity.getDirection()).getStepX(), y, z + (entity.getDirection()).getStepZ()), ThehousetrapModBlocks.CIRAEBLOCK.get().defaultBlockState(), 3);
 	}
 }

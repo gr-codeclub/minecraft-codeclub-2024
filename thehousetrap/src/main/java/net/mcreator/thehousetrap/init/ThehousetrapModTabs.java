@@ -38,6 +38,7 @@ public class ThehousetrapModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(ThehousetrapModItems.CIRAEWOLF_SPAWN_EGG.get());
+			tabData.accept(ThehousetrapModItems.CIRAE_CHAIR_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
