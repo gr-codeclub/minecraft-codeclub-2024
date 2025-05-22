@@ -14,10 +14,10 @@ public class ErikblueOnEntityTickUpdateProcedure {
 		if (entity == null)
 			return;
 		if (entity.isVehicle()) {
-			world.addParticle(ParticleTypes.DRAGON_BREATH, x, y, z, 1, 1, 1);
-			world.addParticle(ParticleTypes.DRAGON_BREATH, x, y, z, (-1), 1, (-1));
-			world.addParticle(ParticleTypes.DRAGON_BREATH, x, y, z, 0, 1, 0);
-			world.addParticle(ParticleTypes.DRAGON_BREATH, x, y, z, 0, 1, 0);
+			world.addParticle(ParticleTypes.FALLING_LAVA, x, y, z, 1, 1, 1);
+			world.addParticle(ParticleTypes.FALLING_LAVA, x, y, z, (-1), 1, (-1));
+			world.addParticle(ParticleTypes.FALLING_LAVA, x, y, z, 0, 1, 0);
+			world.addParticle(ParticleTypes.FALLING_LAVA, x, y, z, 0, 1, 0);
 			if (Mth.nextInt(RandomSource.create(), 1, 100) >= 99) {
 				for (Entity entityiterator : new ArrayList<>(entity.getPassengers())) {
 					entityiterator.stopRiding();
