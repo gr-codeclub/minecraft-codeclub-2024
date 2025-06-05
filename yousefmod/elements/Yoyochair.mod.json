@@ -13,7 +13,7 @@
       "fixedValue": false
     },
     "solidBoundingBox": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "visualScale": {
       "fixedValue": 1.0

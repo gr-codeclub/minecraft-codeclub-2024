@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yousefmod:block/skmile",
+    "up": "yousefmod:block/skmile",
+    "north": "yousefmod:block/amoungus",
+    "east": "yousefmod:block/g",
+    "south": "yousefmod:block/skmile",
+    "west": "yousefmod:block/skmile",
+    "particle": "yousefmod:block/skmile"
+  },
+  "render_type": "solid"
+}

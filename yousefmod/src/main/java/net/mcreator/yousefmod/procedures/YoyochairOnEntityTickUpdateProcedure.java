@@ -37,5 +37,41 @@ public class YoyochairOnEntityTickUpdateProcedure {
 				}
 			}
 		}
+		if (entity.isVehicle()) {
+			world.addParticle(ParticleTypes.EGG_CRACK, x, y, z, 1, 1, 1);
+			world.addParticle(ParticleTypes.EGG_CRACK, x, y, z, (-1), 1, (-1));
+			world.addParticle(ParticleTypes.EGG_CRACK, x, y, z, 0, 1, 0);
+			world.addParticle(ParticleTypes.EGG_CRACK, x, y, z, 0, 1, 0);
+			if (Mth.nextInt(RandomSource.create(), 1, 100) >= 99) {
+				for (Entity entityiterator : new ArrayList<>(entity.getPassengers())) {
+					entityiterator.stopRiding();
+					entityiterator.setDeltaMovement(new Vec3(0, 10, 0));
+				}
+			}
+		}
+		if (entity.isVehicle()) {
+			world.addParticle(ParticleTypes.ELECTRIC_SPARK, x, y, z, 1, 1, 1);
+			world.addParticle(ParticleTypes.ELECTRIC_SPARK, x, y, z, (-1), 1, (-1));
+			world.addParticle(ParticleTypes.ELECTRIC_SPARK, x, y, z, 0, 1, 0);
+			world.addParticle(ParticleTypes.ELECTRIC_SPARK, x, y, z, 0, 1, 0);
+			if (Mth.nextInt(RandomSource.create(), 1, 100) >= 99) {
+				for (Entity entityiterator : new ArrayList<>(entity.getPassengers())) {
+					entityiterator.stopRiding();
+					entityiterator.setDeltaMovement(new Vec3(0, 10, 0));
+				}
+			}
+		}
+		if (entity.isVehicle()) {
+			world.addParticle(ParticleTypes.BUBBLE_POP, x, y, z, 1, 1, 1);
+			world.addParticle(ParticleTypes.BUBBLE_POP, x, y, z, (-1), 1, (-1));
+			world.addParticle(ParticleTypes.BUBBLE_POP, x, y, z, 0, 1, 0);
+			world.addParticle(ParticleTypes.BUBBLE_POP, x, y, z, 0, 1, 0);
+			if (Mth.nextInt(RandomSource.create(), 1, 100) >= 99) {
+				for (Entity entityiterator : new ArrayList<>(entity.getPassengers())) {
+					entityiterator.stopRiding();
+					entityiterator.setDeltaMovement(new Vec3(0, 10, 0));
+				}
+			}
+		}
 	}
 }

@@ -600,6 +600,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "Bloc",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yousefmod/blockstates/bloc.json",
+          "src/main/java/net/mcreator/yousefmod/block/BlocBlock.java",
+          "src/main/resources/assets/yousefmod/models/item/bloc.json",
+          "src/main/resources/data/yousefmod/loot_table/blocks/bloc.json",
+          "src/main/resources/assets/yousefmod/models/block/bloc.json"
+        ]
+      }
+    },
+    {
+      "name": "BlocOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/procedures/BlocOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -614,6 +660,12 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Bloc"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Bloc"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.SANDSTONE#0",
       "~Blocks.SAND#0"
@@ -627,6 +679,7 @@
       "entity.yousefmod.dragonn": "Dragonn",
       "subtitles.squidgame": "",
       "block.yousefmod.testblockyousef": "Imadyousefblock",
+      "block.yousefmod.bloc": "Block",
       "block.yousefmod.football": "Football",
       "block.yousefmod.imadyousefblock": "Imadyousefblock",
       "gui.yousefmod.fanumtax.label_iwontheminischoolcompitistipon": "iwontheminischoolcompitistipon",

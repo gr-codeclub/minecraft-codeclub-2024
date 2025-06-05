@@ -45,6 +45,10 @@ public class YousefmodModTabs {
 			tabData.accept(YousefmodModItems.YOUSE_FWAND.get());
 			tabData.accept(YousefmodModItems.SQUID_GAMEDIMENSION.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+
+			tabData.accept(YousefmodModBlocks.BLOC.get().asItem());
+
 		}
 	}
 }

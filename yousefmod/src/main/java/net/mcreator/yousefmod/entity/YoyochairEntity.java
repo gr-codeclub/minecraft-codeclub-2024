@@ -87,6 +87,16 @@ public class YoyochairEntity extends PathfinderMob {
 		YoyochairOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
+	@Override
+	public boolean canCollideWith(Entity entity) {
+		return true;
+	}
+
+	@Override
+	public boolean canBeCollidedWith() {
+		return true;
+	}
+
 	public static void init(RegisterSpawnPlacementsEvent event) {
 	}
 
