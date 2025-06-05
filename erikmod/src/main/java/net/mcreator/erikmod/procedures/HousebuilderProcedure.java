@@ -2,7 +2,12 @@ package net.mcreator.erikmod.procedures;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.erikmod.init.ErikmodModEntities;
 
 public class HousebuilderProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -24,5 +29,12 @@ public class HousebuilderProcedure {
 		xoffset = -2;
 		zoffset = 0;
 		yoffset = -2;
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = ErikmodModEntities.ERIKBLUE.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setXRot(100);
+				entityToSpawn.setDeltaMovement(100, 100, 100);
+			}
+		}
 	}
 }

@@ -120,6 +120,9 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "onRightClickedOn": {
+      "name": "ErikblueRightClickedOnEntity"
+    },
     "onMobTickUpdate": {
       "name": "ErikblueOnEntityTickUpdate"
     },

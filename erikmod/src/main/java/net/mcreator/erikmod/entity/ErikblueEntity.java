@@ -26,6 +26,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.erikmod.procedures.ErikblueRightClickedOnEntityProcedure;
 import net.mcreator.erikmod.procedures.ErikblueOnInitialEntitySpawnProcedure;
 import net.mcreator.erikmod.procedures.ErikblueOnEntityTickUpdateProcedure;
 import net.mcreator.erikmod.init.ErikmodModItems;
@@ -78,6 +79,13 @@ public class ErikblueEntity extends PathfinderMob {
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Entity entity = this;
+		Level world = this.level();
+
+		ErikblueRightClickedOnEntityProcedure.execute(entity);
 		return retval;
 	}
 

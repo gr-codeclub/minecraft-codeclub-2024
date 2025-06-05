@@ -9,7 +9,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.erikmod.procedures.Erik123456789Procedure;
+import net.mcreator.erikmod.procedures.HousebuilderProcedure;
 
 public class ErikwandthebestItem extends Item {
 	public ErikwandthebestItem() {
@@ -19,7 +19,7 @@ public class ErikwandthebestItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		Erik123456789Procedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		HousebuilderProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 		return ar;
 	}
 }
