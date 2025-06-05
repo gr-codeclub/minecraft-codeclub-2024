@@ -36,7 +36,7 @@
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 65,
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
@@ -44,14 +44,14 @@
       "value": "Arrow"
     },
     "projectileDisableAmmoCheck": false,
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 1000,
     "saturation": 1000.0,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat"
   }
 }
