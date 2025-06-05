@@ -6,14 +6,20 @@ package net.mcreator.wingsoffire.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.wingsoffire.block.WingsOfFireexBlock;
+import net.mcreator.wingsoffire.block.StrawberryBlock;
 import net.mcreator.wingsoffire.block.PollyfrogblockBlock;
 import net.mcreator.wingsoffire.block.MomolandhouseblockBlock;
 import net.mcreator.wingsoffire.block.MomofrogsigmaBlock;
 import net.mcreator.wingsoffire.block.MomofrogdimensionPortalBlock;
+import net.mcreator.wingsoffire.block.LolBlock;
 import net.mcreator.wingsoffire.block.IdkBlock;
 import net.mcreator.wingsoffire.block.HhshhsshsBlock;
 import net.mcreator.wingsoffire.block.GyattBlock;
@@ -35,6 +41,16 @@ public class WingsoffireModBlocks {
 	public static final DeferredBlock<Block> GYATT = REGISTRY.register("gyatt", GyattBlock::new);
 	public static final DeferredBlock<Block> IDK = REGISTRY.register("idk", IdkBlock::new);
 	public static final DeferredBlock<Block> HHSHHSSHS = REGISTRY.register("hhshhsshs", HhshhsshsBlock::new);
+	public static final DeferredBlock<Block> STRAWBERRY = REGISTRY.register("strawberry", StrawberryBlock::new);
+	public static final DeferredBlock<Block> LOL = REGISTRY.register("lol", LolBlock::new);
+
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
+	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class BlocksClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			StrawberryBlock.blockColorLoad(event);
+		}
+	}
 }

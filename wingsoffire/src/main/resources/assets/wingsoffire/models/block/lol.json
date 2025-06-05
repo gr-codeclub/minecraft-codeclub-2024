@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/cloudy",
+    "up": "wingsoffire:block/cloudy",
+    "north": "wingsoffire:block/cloudy",
+    "east": "wingsoffire:block/cloudy",
+    "south": "wingsoffire:block/cloudy",
+    "west": "wingsoffire:block/cloudy",
+    "particle": "wingsoffire:block/cloudy"
+  },
+  "render_type": "solid"
+}

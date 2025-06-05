@@ -616,6 +616,38 @@
           }
         ]
       }
+    },
+    {
+      "name": "Strawberry",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/strawberry.json",
+          "src/main/java/net/mcreator/wingsoffire/block/StrawberryBlock.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/strawberry.json",
+          "src/main/resources/assets/wingsoffire/models/block/strawberry.json",
+          "src/main/resources/assets/wingsoffire/blockstates/strawberry.json"
+        ]
+      }
+    },
+    {
+      "name": "Lol",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/loot_table/blocks/lol.json",
+          "src/main/resources/assets/wingsoffire/blockstates/lol.json",
+          "src/main/resources/assets/wingsoffire/models/item/lol.json",
+          "src/main/resources/assets/wingsoffire/models/block/lol.json",
+          "src/main/java/net/mcreator/wingsoffire/block/LolBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -643,8 +675,10 @@
       "entity.wingsoffire.anika_chair": "Anika Chair",
       "block.wingsoffire.funblock": "Funblock",
       "item_group.wingsoffire.glorys_tab": "Glorys Tab",
+      "block.wingsoffire.lol": "Lol",
       "block.wingsoffire.momofrogsigma": "Momofrogsigma",
       "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
+      "block.wingsoffire.strawberry": "Strawberry",
       "block.wingsoffire.checkers": "Checkers"
     }
   },

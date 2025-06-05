@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/strawbrryy",
+    "up": "wingsoffire:block/strawbrryy",
+    "north": "wingsoffire:block/strawbrryy",
+    "east": "wingsoffire:block/strawbrryy",
+    "south": "wingsoffire:block/strawbrryy",
+    "west": "wingsoffire:block/strawbrryy",
+    "particle": "wingsoffire:block/strawbrryy"
+  },
+  "render_type": "solid"
+}
