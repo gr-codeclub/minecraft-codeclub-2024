@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.cavarli.entity.Noob1234567890OHIOEntity;
+import net.mcreator.cavarli.entity.CjEntity;
 import net.mcreator.cavarli.CavarliMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -26,6 +27,9 @@ public class CavarliModEntities {
 			EntityType.Builder.<Noob1234567890OHIOEntity>of(Noob1234567890OHIOEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.4f, 0.7f));
+	public static final DeferredHolder<EntityType<?>, EntityType<CjEntity>> CJ = register("cj", EntityType.Builder.<CjEntity>of(CjEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+			.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -36,10 +40,12 @@ public class CavarliModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		Noob1234567890OHIOEntity.init(event);
+		CjEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(NOOB_1234567890_OHIO.get(), Noob1234567890OHIOEntity.createAttributes().build());
+		event.put(CJ.get(), CjEntity.createAttributes().build());
 	}
 }
