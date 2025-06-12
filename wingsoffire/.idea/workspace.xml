@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14e097c2-614f-4deb-b337-efbac3ec2a2d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jacobsworkspace/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobsworkspace/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jacobsworkspace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobsworkspace/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thehousetrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thehousetrap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Wingsoffire - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Wingsoffire - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Wingsoffire - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Anikarecipewof.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Anikarecipewof.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Anikawof.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Anikawof.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Checkers.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Checkers.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/CheckersOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/CheckersOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Checkersgui.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Checkersgui.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Funblock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Funblock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Gloryandthehiddenkingdom.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Gloryandthehiddenkingdom.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/GloryandthehiddenkingdomRightclicked.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/GloryandthehiddenkingdomRightclicked.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/GlorysTab.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/GlorysTab.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Raiseyouryayaya.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Raiseyouryayaya.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Raiseyouryayaya2.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Raiseyouryayaya2.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/WingsFuelLabel.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/WingsFuelLabel.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/WingsOfFireex.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/WingsOfFireex.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/WingsOfFireexEntityWalksOnTheBlock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/WingsOfFireexEntityWalksOnTheBlock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/WingsOfFireexOnBlockRightClicked.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/WingsOfFireexOnBlockRightClicked.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/WingsOfFireexOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/WingsOfFireexOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/WingsOfFireexRedstoneOn.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/WingsOfFireexRedstoneOn.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/command_history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/fml.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/fml.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-client.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-common.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-common.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-server.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-server.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/usernamecache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/server/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/runs/server/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/WingsoffireMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/WingsoffireMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/CheckersBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/CheckersBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/FunblockBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/FunblockBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/Raiseyouryayaya2Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/Raiseyouryayaya2Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/RaiseyouryayayaBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/RaiseyouryayayaBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/WingsOfFireexBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/WingsOfFireexBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/entity/CheckersBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/entity/CheckersBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/entity/FunblockBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/entity/FunblockBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/entity/WingsOfFireexBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/block/entity/WingsOfFireexBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/client/gui/CheckersguiScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/client/gui/CheckersguiScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/client/renderer/AnikawofRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/client/renderer/AnikawofRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/entity/AnikawofEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/entity/AnikawofEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModBlockEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModEntityRenderers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModEntityRenderers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModScreens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModScreens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/init/WingsoffireModTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/item/GloryandthehiddenkingdomItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/item/GloryandthehiddenkingdomItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/CheckersOnTickUpdateProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/CheckersOnTickUpdateProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/GloryandthehiddenkingdomRightclickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/GloryandthehiddenkingdomRightclickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsFuelLabelProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsFuelLabelProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexEntityWalksOnTheBlockProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexEntityWalksOnTheBlockProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnBlockRightClickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnBlockRightClickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnTickUpdateProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnTickUpdateProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexRedstoneOnProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexRedstoneOnProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/world/inventory/CheckersguiMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/wingsoffire/world/inventory/CheckersguiMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/checkers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/checkers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/funblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/funblock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/wings_of_fireex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/blockstates/wings_of_fireex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/checkers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/checkers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/funblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/funblock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/wings_of_fireex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/block/wings_of_fireex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/anikawof_spawn_egg.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/anikawof_spawn_egg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/checkers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/checkers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/funblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/funblock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/gloryandthehiddenkingdom.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/gloryandthehiddenkingdom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/wings_of_fireex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/wingsoffire/models/item/wings_of_fireex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/checkers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/checkers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/funblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/funblock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/wings_of_fireex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/loot_table/blocks/wings_of_fireex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/neoforge/biome_modifier/anikawof_biome_modifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/neoforge/biome_modifier/anikawof_biome_modifier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/recipe/winterdeservedbetter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wingsoffire/recipe/winterdeservedbetter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wingsoffire.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/wingsoffire.mcreator" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2s2KXIt16zul7ootmXgzCMzeNj2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;wingsoffirexi&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14e097c2-614f-4deb-b337-efbac3ec2a2d" name="Changes" comment="" />
+      <created>1737648270237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737648270237</updated>
+    </task>
+    <servers />
+  </component>
+</project>

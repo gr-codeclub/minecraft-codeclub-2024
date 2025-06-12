@@ -98,8 +98,8 @@
       "registry_name": "cavarl_inoob_1234567890",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cavarli/item/CAVARLInoob1234567890Item.java",
-          "src/main/resources/assets/cavarli/models/item/cavarl_inoob_1234567890.json"
+          "src/main/resources/assets/cavarli/models/item/cavarl_inoob_1234567890.json",
+          "src/main/java/net/mcreator/cavarli/item/CAVARLInoob1234567890Item.java"
         ]
       }
     },
@@ -124,12 +124,12 @@
       "registry_name": "ohiotolenoob_1234",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cavarli/block/entity/OHIOTOLENOOB1234BlockEntity.java",
-          "src/main/java/net/mcreator/cavarli/block/OHIOTOLENOOB1234Block.java",
           "src/main/resources/assets/cavarli/models/item/ohiotolenoob_1234.json",
           "src/main/resources/assets/cavarli/blockstates/ohiotolenoob_1234.json",
+          "src/main/resources/assets/cavarli/models/block/ohiotolenoob_1234.json",
+          "src/main/java/net/mcreator/cavarli/block/OHIOTOLENOOB1234Block.java",
           "src/main/resources/data/cavarli/loot_table/blocks/ohiotolenoob_1234.json",
-          "src/main/resources/assets/cavarli/models/block/ohiotolenoob_1234.json"
+          "src/main/java/net/mcreator/cavarli/block/entity/OHIOTOLENOOB1234BlockEntity.java"
         ]
       }
     },

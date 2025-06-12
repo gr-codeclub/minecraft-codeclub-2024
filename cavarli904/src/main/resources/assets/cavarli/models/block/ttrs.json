@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cavarli:block/llllllllllllllllllllllllll",
+    "up": "cavarli:block/llllllllllllllllllllllllll",
+    "north": "cavarli:block/llllllllllllllllllllllllll",
+    "east": "cavarli:block/ttrs",
+    "south": "cavarli:block/llllllllllllllllllllllllll",
+    "west": "cavarli:block/ttrs",
+    "particle": "cavarli:block/llllllllllllllllllllllllll"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,365 @@
+{
+  "mod_elements": [
+    {
+      "name": "WinterLand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "winter_land",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cinnamoroll/blockstates/winter_land.json",
+          "src/main/resources/assets/cinnamoroll/models/block/winter_land.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/WinterLandBlock.java",
+          "src/main/java/net/mcreator/cinnamoroll/block/entity/WinterLandBlockEntity.java",
+          "src/main/resources/assets/cinnamoroll/models/item/winter_land.json",
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/winter_land.json"
+        ]
+      }
+    },
+    {
+      "name": "WinterLandOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "winter_land_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/WinterLandOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/RainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lollipop",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lollipop",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SunsetwandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunsetwand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/SunsetwandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sunsetwand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunsetwand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/item/SunsetwandItem.java",
+          "src/main/resources/assets/cinnamoroll/models/item/sunsetwand.json"
+        ]
+      }
+    },
+    {
+      "name": "WinterLandOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winter_land_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/WinterLandOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoL",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lo_l",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cinnamoroll/models/block/lo_l.json",
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/lo_l.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/entity/LoLBlockEntity.java",
+          "src/main/resources/assets/cinnamoroll/blockstates/lo_l.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/LoLBlock.java",
+          "src/main/resources/assets/cinnamoroll/models/item/lo_l.json"
+        ]
+      }
+    },
+    {
+      "name": "Jamilanotcinmroll",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jamilanotcinmroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/world/inventory/JamilanotcinmrollMenu.java",
+          "src/main/java/net/mcreator/cinnamoroll/client/gui/JamilanotcinmrollScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "LoLOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lo_l_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/LoLOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kuromi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kuromi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cinnamoroll/recipe/kuromi.json"
+        ]
+      }
+    },
+    {
+      "name": "Winterblock2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterblock_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/block/Winterblock2Block.java",
+          "src/main/java/net/mcreator/cinnamoroll/block/entity/Winterblock2BlockEntity.java",
+          "src/main/resources/assets/cinnamoroll/models/block/winterblock_2.json",
+          "src/main/resources/assets/cinnamoroll/models/item/winterblock_2.json",
+          "src/main/resources/assets/cinnamoroll/blockstates/winterblock_2.json",
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/winterblock_2.json"
+        ]
+      }
+    },
+    {
+      "name": "BobTheBuilder",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob_the_builder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cinnamoroll/models/block/bob_the_builder_portal_ns.json",
+          "src/main/resources/assets/cinnamoroll/blockstates/bob_the_builder_portal.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/BobTheBuilderPortalBlock.java",
+          "src/main/java/net/mcreator/cinnamoroll/world/dimension/BobTheBuilderDimension.java",
+          "src/main/resources/data/cinnamoroll/dimension_type/bob_the_builder.json",
+          "src/main/resources/data/cinnamoroll/dimension/bob_the_builder.json",
+          "src/main/java/net/mcreator/cinnamoroll/world/teleporter/BobTheBuilderPortalShape.java",
+          "src/main/resources/assets/cinnamoroll/models/block/bob_the_builder_portal_ew.json",
+          "src/main/resources/assets/cinnamoroll/models/item/bob_the_builder.json",
+          "src/main/java/net/mcreator/cinnamoroll/item/BobTheBuilderItem.java",
+          "src/main/java/net/mcreator/cinnamoroll/world/teleporter/BobTheBuilderTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "PINKIEANDBLUE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkieandblue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cinnamoroll/blockstates/pinkieandblue.json",
+          "src/main/resources/assets/cinnamoroll/models/block/pinkieandblue.json",
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/pinkieandblue.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/PINKIEANDBLUEBlock.java",
+          "src/main/resources/assets/cinnamoroll/models/item/pinkieandblue.json"
+        ]
+      }
+    },
+    {
+      "name": "Housebuilder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "housebuilder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/HousebuilderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:WinterLand"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.cinnamoroll.bob_the_builder": "Bob The Builder Portal Igniter",
+      "block.cinnamoroll.winter_land": "Winter Land",
+      "block.cinnamoroll.lo_l": "Lo L",
+      "block.cinnamoroll.winterblock_2": "Winter Land 2",
+      "item_group.cinnamoroll.lollipop": "Lollipop",
+      "item.cinnamoroll.sunsetwand": "Sunsetwand",
+      "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet",
+      "block.cinnamoroll.pinkieandblue": "PINKIEANDBLUE"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cinnamoroll",
+    "modName": "cinnamoroll",
+    "version": "1.0.0",
+    "author": "TrainingGR14, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.cinnamoroll"
+  },
+  "mcreatorVersion": 202400342716
+}
