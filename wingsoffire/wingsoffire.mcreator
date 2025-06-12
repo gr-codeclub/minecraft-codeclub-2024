@@ -648,6 +648,21 @@
           "src/main/java/net/mcreator/wingsoffire/block/LolBlock.java"
         ]
       }
+    },
+    {
+      "name": "SCOTTTHESCOOTER",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scottthescooter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/entity/SCOTTTHESCOOTEREntity.java",
+          "src/main/resources/assets/wingsoffire/models/item/scottthescooter_spawn_egg.json",
+          "src/main/resources/data/wingsoffire/neoforge/biome_modifier/scottthescooter_biome_modifier.json",
+          "src/main/java/net/mcreator/wingsoffire/client/renderer/SCOTTTHESCOOTERRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -672,6 +687,7 @@
       "gui.wingsoffire.checkersgui.label_empty": "",
       "block.wingsoffire.gyatt": "Gyatt",
       "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
+      "entity.wingsoffire.scottthescooter": "SCOTTTHESCOOTER",
       "entity.wingsoffire.anika_chair": "Anika Chair",
       "block.wingsoffire.funblock": "Funblock",
       "item_group.wingsoffire.glorys_tab": "Glorys Tab",
@@ -679,6 +695,7 @@
       "block.wingsoffire.momofrogsigma": "Momofrogsigma",
       "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
       "block.wingsoffire.strawberry": "Strawberry",
+      "item.wingsoffire.scottthescooter_spawn_egg": "SCOTTTHESCOOTER Spawn Egg",
       "block.wingsoffire.checkers": "Checkers"
     }
   },
