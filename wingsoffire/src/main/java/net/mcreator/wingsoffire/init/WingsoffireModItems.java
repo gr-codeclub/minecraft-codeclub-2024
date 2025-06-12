@@ -43,6 +43,7 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> HHSHHSSHS = block(WingsoffireModBlocks.HHSHHSSHS);
 	public static final DeferredItem<Item> STRAWBERRY = block(WingsoffireModBlocks.STRAWBERRY);
 	public static final DeferredItem<Item> LOL = block(WingsoffireModBlocks.LOL);
+	public static final DeferredItem<Item> SCOTTTHESCOOTER_SPAWN_EGG = REGISTRY.register("scottthescooter_spawn_egg", () -> new DeferredSpawnEggItem(WingsoffireModEntities.SCOTTTHESCOOTER, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

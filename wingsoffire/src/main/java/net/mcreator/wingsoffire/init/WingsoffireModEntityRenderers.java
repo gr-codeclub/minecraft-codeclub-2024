@@ -9,6 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.mcreator.wingsoffire.client.renderer.SCOTTTHESCOOTERRenderer;
 import net.mcreator.wingsoffire.client.renderer.AnikawofRenderer;
 import net.mcreator.wingsoffire.client.renderer.AnikaChairRenderer;
 
@@ -18,5 +19,6 @@ public class WingsoffireModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(WingsoffireModEntities.ANIKAWOF.get(), AnikawofRenderer::new);
 		event.registerEntityRenderer(WingsoffireModEntities.ANIKA_CHAIR.get(), AnikaChairRenderer::new);
+		event.registerEntityRenderer(WingsoffireModEntities.SCOTTTHESCOOTER.get(), SCOTTTHESCOOTERRenderer::new);
 	}
 }

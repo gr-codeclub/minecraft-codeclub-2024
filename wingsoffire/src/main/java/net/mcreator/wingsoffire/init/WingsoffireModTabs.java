@@ -45,6 +45,7 @@ public class WingsoffireModTabs {
 
 			tabData.accept(WingsoffireModItems.ANIKAWOF_SPAWN_EGG.get());
 			tabData.accept(WingsoffireModItems.ANIKA_CHAIR_SPAWN_EGG.get());
+			tabData.accept(WingsoffireModItems.SCOTTTHESCOOTER_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

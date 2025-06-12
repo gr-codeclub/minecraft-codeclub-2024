@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.wingsoffire.entity.SCOTTTHESCOOTEREntity;
 import net.mcreator.wingsoffire.entity.AnikawofEntity;
 import net.mcreator.wingsoffire.entity.AnikaChairEntity;
 import net.mcreator.wingsoffire.WingsoffireMod;
@@ -31,6 +32,10 @@ public class WingsoffireModEntities {
 			EntityType.Builder.<AnikaChairEntity>of(AnikaChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<SCOTTTHESCOOTEREntity>> SCOTTTHESCOOTER = register("scottthescooter",
+			EntityType.Builder.<SCOTTTHESCOOTEREntity>of(SCOTTTHESCOOTEREntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -42,11 +47,13 @@ public class WingsoffireModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		AnikawofEntity.init(event);
 		AnikaChairEntity.init(event);
+		SCOTTTHESCOOTEREntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ANIKAWOF.get(), AnikawofEntity.createAttributes().build());
 		event.put(ANIKA_CHAIR.get(), AnikaChairEntity.createAttributes().build());
+		event.put(SCOTTTHESCOOTER.get(), SCOTTTHESCOOTEREntity.createAttributes().build());
 	}
 }

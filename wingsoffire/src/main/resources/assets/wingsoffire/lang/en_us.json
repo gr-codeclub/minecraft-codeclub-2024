@@ -11,6 +11,7 @@
   "gui.wingsoffire.checkersgui.label_empty": "",
   "block.wingsoffire.gyatt": "Gyatt",
   "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
+  "entity.wingsoffire.scottthescooter": "SCOTTTHESCOOTER",
   "entity.wingsoffire.anika_chair": "Anika Chair",
   "block.wingsoffire.funblock": "Funblock",
   "item_group.wingsoffire.glorys_tab": "Glorys Tab",
@@ -18,5 +19,6 @@
   "block.wingsoffire.momofrogsigma": "Momofrogsigma",
   "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
   "block.wingsoffire.strawberry": "Strawberry",
+  "item.wingsoffire.scottthescooter_spawn_egg": "SCOTTTHESCOOTER Spawn Egg",
   "block.wingsoffire.checkers": "Checkers"
 }
