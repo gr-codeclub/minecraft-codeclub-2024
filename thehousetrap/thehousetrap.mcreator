@@ -527,6 +527,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Dex",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dex",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/client/renderer/DexRenderer.java",
+          "src/main/resources/assets/thehousetrap/models/item/dex_spawn_egg.json",
+          "src/main/java/net/mcreator/thehousetrap/entity/DexEntity.java",
+          "src/main/resources/data/thehousetrap/neoforge/biome_modifier/dex_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -547,10 +562,12 @@
       "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
       "item.thehousetrap.squidgame": "Squidgame Portal Igniter",
       "item.thehousetrap.cirae_froggy": "Cirae Froggy",
+      "entity.thehousetrap.dex": "Dex",
       "entity.thehousetrap.ciraewolf": "Ciraewolf",
       "block.thehousetrap.cosyblock": "Cosyblock",
       "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
       "entity.thehousetrap.cirae_chair": "Cirae Chair",
+      "item.thehousetrap.dex_spawn_egg": "Dex Spawn Egg",
       "block.thehousetrap.hi": "Hi"
     }
   },

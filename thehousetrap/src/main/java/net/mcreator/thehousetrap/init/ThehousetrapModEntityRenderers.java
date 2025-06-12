@@ -9,6 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.mcreator.thehousetrap.client.renderer.DexRenderer;
 import net.mcreator.thehousetrap.client.renderer.CiraewolfRenderer;
 import net.mcreator.thehousetrap.client.renderer.CiraeChairRenderer;
 
@@ -18,5 +19,6 @@ public class ThehousetrapModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ThehousetrapModEntities.CIRAEWOLF.get(), CiraewolfRenderer::new);
 		event.registerEntityRenderer(ThehousetrapModEntities.CIRAE_CHAIR.get(), CiraeChairRenderer::new);
+		event.registerEntityRenderer(ThehousetrapModEntities.DEX.get(), DexRenderer::new);
 	}
 }

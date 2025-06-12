@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b111d8b-f2aa-4523-a250-0eeb08ed3021" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/CinnamorollMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/CinnamorollMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/client/model/Modelfamous.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/client/model/Modelfamous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModBlockEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModEntityRenderers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModEntityRenderers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModModels.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModModels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModScreens.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModScreens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/java/net/mcreator/cinnamoroll/init/CinnamorollModTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2s2Jz2wgDXkcISSj7xttJ4dc9l0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Ai&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/minecraft-codeclub-2024/cinnamoroll&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="erikmod.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="erikmod.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b111d8b-f2aa-4523-a250-0eeb08ed3021" name="Changes" comment="" />
+      <created>1737647995315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737647995315</updated>
+    </task>
+    <servers />
+  </component>
+</project>

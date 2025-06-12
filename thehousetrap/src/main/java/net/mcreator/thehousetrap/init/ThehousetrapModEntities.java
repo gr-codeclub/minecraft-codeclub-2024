@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.thehousetrap.entity.DexEntity;
 import net.mcreator.thehousetrap.entity.CiraewolfEntity;
 import net.mcreator.thehousetrap.entity.CiraeChairEntity;
 import net.mcreator.thehousetrap.ThehousetrapMod;
@@ -31,6 +32,9 @@ public class ThehousetrapModEntities {
 			EntityType.Builder.<CiraeChairEntity>of(CiraeChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<DexEntity>> DEX = register("dex", EntityType.Builder.<DexEntity>of(DexEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+			.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -42,11 +46,13 @@ public class ThehousetrapModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		CiraewolfEntity.init(event);
 		CiraeChairEntity.init(event);
+		DexEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CIRAEWOLF.get(), CiraewolfEntity.createAttributes().build());
 		event.put(CIRAE_CHAIR.get(), CiraeChairEntity.createAttributes().build());
+		event.put(DEX.get(), DexEntity.createAttributes().build());
 	}
 }
