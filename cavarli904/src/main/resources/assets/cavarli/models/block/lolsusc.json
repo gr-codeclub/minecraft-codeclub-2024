@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/respawn_anchor_top_off",
-    "up": "minecraft:block/respawn_anchor_top",
-    "north": "minecraft:block/end_portal_frame_eye",
-    "east": "minecraft:block/structure_block_data",
-    "south": "minecraft:block/end_portal_frame_top",
-    "west": "minecraft:block/structure_block_data",
-    "particle": "minecraft:block/respawn_anchor_top_off"
+    "down": "cavarli:block/creper",
+    "up": "cavarli:block/creper",
+    "north": "cavarli:block/creper",
+    "east": "cavarli:block/creper",
+    "south": "cavarli:block/creper",
+    "west": "cavarli:block/creper",
+    "particle": "cavarli:block/creper"
   },
   "render_type": "solid"
 }

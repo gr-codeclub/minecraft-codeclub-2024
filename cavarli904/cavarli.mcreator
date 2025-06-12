@@ -252,11 +252,11 @@
       "registry_name": "lolsusc",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cavarli/block/LolsuscBlock.java",
           "src/main/resources/assets/cavarli/models/block/lolsusc.json",
-          "src/main/resources/data/cavarli/loot_table/blocks/lolsusc.json",
           "src/main/resources/assets/cavarli/models/item/lolsusc.json",
           "src/main/resources/assets/cavarli/blockstates/lolsusc.json",
-          "src/main/java/net/mcreator/cavarli/block/LolsuscBlock.java"
+          "src/main/resources/data/cavarli/loot_table/blocks/lolsusc.json"
         ]
       }
     },
