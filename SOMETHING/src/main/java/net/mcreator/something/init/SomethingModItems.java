@@ -31,6 +31,7 @@ public class SomethingModItems {
 	public static final DeferredItem<Item> EPIC_GAMES_SWORD_JAKY = block(SomethingModBlocks.EPIC_GAMES_SWORD_JAKY);
 	public static final DeferredItem<Item> ABSOULOUTLEY_NOT_JAKY = block(SomethingModBlocks.ABSOULOUTLEY_NOT_JAKY);
 	public static final DeferredItem<Item> JAKY_CHAIR_SPAWN_EGG = REGISTRY.register("jaky_chair_spawn_egg", () -> new DeferredSpawnEggItem(SomethingModEntities.JAKY_CHAIR, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> POO_SPAWN_EGG = REGISTRY.register("poo_spawn_egg", () -> new DeferredSpawnEggItem(SomethingModEntities.POO, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

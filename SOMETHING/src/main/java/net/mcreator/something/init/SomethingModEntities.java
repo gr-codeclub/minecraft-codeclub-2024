@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.something.entity.POOEntity;
 import net.mcreator.something.entity.KityyJakyEntity;
 import net.mcreator.something.entity.JakyChairEntity;
 import net.mcreator.something.SomethingMod;
@@ -31,6 +32,9 @@ public class SomethingModEntities {
 			EntityType.Builder.<JakyChairEntity>of(JakyChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<POOEntity>> POO = register("poo", EntityType.Builder.<POOEntity>of(POOEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+			.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -42,11 +46,13 @@ public class SomethingModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		KityyJakyEntity.init(event);
 		JakyChairEntity.init(event);
+		POOEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(KITYY_JAKY.get(), KityyJakyEntity.createAttributes().build());
 		event.put(JAKY_CHAIR.get(), JakyChairEntity.createAttributes().build());
+		event.put(POO.get(), POOEntity.createAttributes().build());
 	}
 }

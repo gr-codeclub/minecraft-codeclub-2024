@@ -566,6 +566,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "POO",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/client/renderer/POORenderer.java",
+          "src/main/java/net/mcreator/something/entity/POOEntity.java",
+          "src/main/resources/assets/something/models/item/poo_spawn_egg.json",
+          "src/main/resources/data/something/neoforge/biome_modifier/poo_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -590,6 +605,8 @@
       "item.something.kityy_jaky_spawn_egg": "Kityy Jaky Spawn Egg",
       "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.medkit": "%1$s died",
+      "entity.something.poo": "POO",
+      "item.something.poo_spawn_egg": "POO Spawn Egg",
       "death.attack.medkit.player": "%1$s died whilst trying to escape %2$s",
       "item.something.jakys_dimention": "Jakys Dimention Portal Igniter",
       "fluid.something.notwater": "NOTWATER",

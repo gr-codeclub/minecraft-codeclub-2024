@@ -35,6 +35,7 @@ public class SomethingModTabs {
 
 			tabData.accept(SomethingModItems.KITYY_JAKY_SPAWN_EGG.get());
 			tabData.accept(SomethingModItems.JAKY_CHAIR_SPAWN_EGG.get());
+			tabData.accept(SomethingModItems.POO_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
