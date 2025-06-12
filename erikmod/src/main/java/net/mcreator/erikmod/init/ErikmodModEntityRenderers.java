@@ -9,6 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.mcreator.erikmod.client.renderer.ShockwaveRenderer;
 import net.mcreator.erikmod.client.renderer.ErikiishimRenderer;
 import net.mcreator.erikmod.client.renderer.ErikblueRenderer;
 
@@ -18,5 +19,6 @@ public class ErikmodModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ErikmodModEntities.ERIKIISHIM.get(), ErikiishimRenderer::new);
 		event.registerEntityRenderer(ErikmodModEntities.ERIKBLUE.get(), ErikblueRenderer::new);
+		event.registerEntityRenderer(ErikmodModEntities.SHOCKWAVE.get(), ShockwaveRenderer::new);
 	}
 }

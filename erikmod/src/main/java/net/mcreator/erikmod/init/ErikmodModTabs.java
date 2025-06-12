@@ -39,6 +39,7 @@ public class ErikmodModTabs {
 
 			tabData.accept(ErikmodModItems.ERIKIISHIM_SPAWN_EGG.get());
 			tabData.accept(ErikmodModItems.ERIKBLUE_SPAWN_EGG.get());
+			tabData.accept(ErikmodModItems.SHOCKWAVE_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

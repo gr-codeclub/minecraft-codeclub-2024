@@ -1,13 +1,15 @@
 {
   "item.erikmod.erikblue_spawn_egg": "Erikblue Spawn Egg",
-  "item.erikmod.erikwandthebest": "Erikwandthebest",
-  "item_group.erikmod.eriktab": "Eriktab",
+  "entity.erikmod.shockwave": "Shockwave",
   "block.erikmod.erikytu": "Erikytu",
   "entity.erikmod.erikblue": "Erikblue",
   "block.erikmod.aboy": "Aboy",
   "biome.erikmod.freiyr": "Freiyr",
-  "item.erikmod.erikiishim_spawn_egg": "Erikiishim Spawn Egg",
   "entity.erikmod.erikiishim": "Erikiishim",
   "item.erikmod.erikishim": "Erikishim Portal Igniter",
-  "block.erikmod.erik_blocks": "Erik Blocks"
+  "block.erikmod.erik_blocks": "Erik Blocks",
+  "item.erikmod.erikwandthebest": "Erikwandthebest",
+  "item_group.erikmod.eriktab": "Eriktab",
+  "item.erikmod.erikiishim_spawn_egg": "Erikiishim Spawn Egg",
+  "item.erikmod.shockwave_spawn_egg": "Shockwave Spawn Egg"
 }

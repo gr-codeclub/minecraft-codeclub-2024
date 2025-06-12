@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.erikmod.entity.ShockwaveEntity;
 import net.mcreator.erikmod.entity.ErikiishimEntity;
 import net.mcreator.erikmod.entity.ErikblueEntity;
 import net.mcreator.erikmod.ErikmodMod;
@@ -31,6 +32,10 @@ public class ErikmodModEntities {
 			EntityType.Builder.<ErikblueEntity>of(ErikblueEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ShockwaveEntity>> SHOCKWAVE = register("shockwave",
+			EntityType.Builder.<ShockwaveEntity>of(ShockwaveEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -42,11 +47,13 @@ public class ErikmodModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		ErikiishimEntity.init(event);
 		ErikblueEntity.init(event);
+		ShockwaveEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ERIKIISHIM.get(), ErikiishimEntity.createAttributes().build());
 		event.put(ERIKBLUE.get(), ErikblueEntity.createAttributes().build());
+		event.put(SHOCKWAVE.get(), ShockwaveEntity.createAttributes().build());
 	}
 }

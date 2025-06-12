@@ -553,6 +553,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Shockwave",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/client/renderer/ShockwaveRenderer.java",
+          "src/main/resources/data/erikmod/neoforge/biome_modifier/shockwave_biome_modifier.json",
+          "src/main/java/net/mcreator/erikmod/entity/ShockwaveEntity.java",
+          "src/main/resources/assets/erikmod/models/item/shockwave_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -568,16 +583,18 @@
   "language_map": {
     "en_us": {
       "item.erikmod.erikblue_spawn_egg": "Erikblue Spawn Egg",
-      "item.erikmod.erikwandthebest": "Erikwandthebest",
-      "item_group.erikmod.eriktab": "Eriktab",
+      "entity.erikmod.shockwave": "Shockwave",
       "block.erikmod.erikytu": "Erikytu",
       "entity.erikmod.erikblue": "Erikblue",
       "block.erikmod.aboy": "Aboy",
       "biome.erikmod.freiyr": "Freiyr",
-      "item.erikmod.erikiishim_spawn_egg": "Erikiishim Spawn Egg",
       "entity.erikmod.erikiishim": "Erikiishim",
       "item.erikmod.erikishim": "Erikishim Portal Igniter",
-      "block.erikmod.erik_blocks": "Erik Blocks"
+      "block.erikmod.erik_blocks": "Erik Blocks",
+      "item.erikmod.erikwandthebest": "Erikwandthebest",
+      "item_group.erikmod.eriktab": "Eriktab",
+      "item.erikmod.erikiishim_spawn_egg": "Erikiishim Spawn Egg",
+      "item.erikmod.shockwave_spawn_egg": "Shockwave Spawn Egg"
     }
   },
   "foldersRoot": {
