@@ -250,11 +250,11 @@
       "registry_name": "imadyousefblock",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/yousefmod/block/entity/ImadyousefblockBlockEntity.java",
+          "src/main/resources/data/yousefmod/loot_table/blocks/imadyousefblock.json",
+          "src/main/resources/assets/yousefmod/blockstates/imadyousefblock.json",
           "src/main/resources/assets/yousefmod/models/item/imadyousefblock.json",
           "src/main/resources/assets/yousefmod/models/block/imadyousefblock.json",
-          "src/main/resources/assets/yousefmod/blockstates/imadyousefblock.json",
-          "src/main/resources/data/yousefmod/loot_table/blocks/imadyousefblock.json",
-          "src/main/java/net/mcreator/yousefmod/block/entity/ImadyousefblockBlockEntity.java",
           "src/main/java/net/mcreator/yousefmod/block/ImadyousefblockBlock.java"
         ]
       }
@@ -267,8 +267,8 @@
       "registry_name": "fanumtax",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/yousefmod/world/inventory/FanumtaxMenu.java",
-          "src/main/java/net/mcreator/yousefmod/client/gui/FanumtaxScreen.java"
+          "src/main/java/net/mcreator/yousefmod/client/gui/FanumtaxScreen.java",
+          "src/main/java/net/mcreator/yousefmod/world/inventory/FanumtaxMenu.java"
         ]
       }
     },
@@ -373,8 +373,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/yousefmod/client/renderer/DragonnRenderer.java",
-          "src/main/resources/data/yousefmod/neoforge/biome_modifier/dragonn_biome_modifier.json",
           "src/main/java/net/mcreator/yousefmod/entity/DragonnEntity.java",
+          "src/main/resources/data/yousefmod/neoforge/biome_modifier/dragonn_biome_modifier.json",
           "src/main/resources/assets/yousefmod/models/item/dragonn_spawn_egg.json"
         ]
       }
@@ -399,11 +399,11 @@
       "registry_name": "testblockyousef",
       "metadata": {
         "files": [
-          "src/main/resources/assets/yousefmod/models/item/testblockyousef.json",
-          "src/main/resources/assets/yousefmod/models/block/testblockyousef.json",
+          "src/main/resources/data/yousefmod/loot_table/blocks/testblockyousef.json",
           "src/main/java/net/mcreator/yousefmod/block/TestblockyousefBlock.java",
           "src/main/resources/assets/yousefmod/blockstates/testblockyousef.json",
-          "src/main/resources/data/yousefmod/loot_table/blocks/testblockyousef.json"
+          "src/main/resources/assets/yousefmod/models/item/testblockyousef.json",
+          "src/main/resources/assets/yousefmod/models/block/testblockyousef.json"
         ]
       }
     },
@@ -416,8 +416,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/yousefmod/worldgen/biome/testbiome.json",
-          "src/main/resources/data/yousefmod/worldgen/placed_feature/testbiome_tree.json",
-          "src/main/resources/data/yousefmod/worldgen/configured_feature/testbiome_tree.json"
+          "src/main/resources/data/yousefmod/worldgen/configured_feature/testbiome_tree.json",
+          "src/main/resources/data/yousefmod/worldgen/placed_feature/testbiome_tree.json"
         ]
       }
     },
@@ -429,15 +429,15 @@
       "registry_name": "squid_gamedimension",
       "metadata": {
         "files": [
-          "src/main/resources/data/yousefmod/dimension/squid_gamedimension.json",
-          "src/main/java/net/mcreator/yousefmod/world/teleporter/SquidGamedimensionTeleporter.java",
-          "src/main/resources/assets/yousefmod/blockstates/squid_gamedimension_portal.json",
-          "src/main/resources/assets/yousefmod/models/block/squid_gamedimension_portal_ns.json",
-          "src/main/java/net/mcreator/yousefmod/item/SquidGamedimensionItem.java",
-          "src/main/resources/assets/yousefmod/models/block/squid_gamedimension_portal_ew.json",
-          "src/main/resources/assets/yousefmod/models/item/squid_gamedimension.json",
           "src/main/java/net/mcreator/yousefmod/world/dimension/SquidGamedimensionDimension.java",
           "src/main/resources/data/yousefmod/dimension_type/squid_gamedimension.json",
+          "src/main/resources/assets/yousefmod/models/item/squid_gamedimension.json",
+          "src/main/java/net/mcreator/yousefmod/world/teleporter/SquidGamedimensionTeleporter.java",
+          "src/main/resources/assets/yousefmod/blockstates/squid_gamedimension_portal.json",
+          "src/main/resources/assets/yousefmod/models/block/squid_gamedimension_portal_ew.json",
+          "src/main/resources/assets/yousefmod/models/block/squid_gamedimension_portal_ns.json",
+          "src/main/resources/data/yousefmod/dimension/squid_gamedimension.json",
+          "src/main/java/net/mcreator/yousefmod/item/SquidGamedimensionItem.java",
           "src/main/java/net/mcreator/yousefmod/world/teleporter/SquidGamedimensionPortalShape.java",
           "src/main/java/net/mcreator/yousefmod/block/SquidGamedimensionPortalBlock.java"
         ]
@@ -511,11 +511,11 @@
       "registry_name": "football",
       "metadata": {
         "files": [
-          "src/main/resources/assets/yousefmod/models/item/football.json",
           "src/main/java/net/mcreator/yousefmod/block/FootballBlock.java",
+          "src/main/resources/assets/yousefmod/models/item/football.json",
+          "src/main/resources/data/yousefmod/loot_table/blocks/football.json",
           "src/main/resources/assets/yousefmod/models/block/football.json",
-          "src/main/resources/assets/yousefmod/blockstates/football.json",
-          "src/main/resources/data/yousefmod/loot_table/blocks/football.json"
+          "src/main/resources/assets/yousefmod/blockstates/football.json"
         ]
       }
     },
@@ -527,9 +527,9 @@
       "registry_name": "yoyochair",
       "metadata": {
         "files": [
+          "src/main/resources/assets/yousefmod/models/item/yoyochair_spawn_egg.json",
           "src/main/java/net/mcreator/yousefmod/client/renderer/YoyochairRenderer.java",
-          "src/main/java/net/mcreator/yousefmod/entity/YoyochairEntity.java",
-          "src/main/resources/assets/yousefmod/models/item/yoyochair_spawn_egg.json"
+          "src/main/java/net/mcreator/yousefmod/entity/YoyochairEntity.java"
         ]
       }
     },
@@ -610,10 +610,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/yousefmod/blockstates/bloc.json",
-          "src/main/java/net/mcreator/yousefmod/block/BlocBlock.java",
+          "src/main/resources/assets/yousefmod/models/block/bloc.json",
           "src/main/resources/assets/yousefmod/models/item/bloc.json",
-          "src/main/resources/data/yousefmod/loot_table/blocks/bloc.json",
-          "src/main/resources/assets/yousefmod/models/block/bloc.json"
+          "src/main/java/net/mcreator/yousefmod/block/BlocBlock.java",
+          "src/main/resources/data/yousefmod/loot_table/blocks/bloc.json"
         ]
       }
     },
@@ -646,6 +646,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Mbinigusini",
+      "type": "livingentity",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "mbinigusini",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/client/renderer/MbinigusiniRenderer.java",
+          "src/main/resources/data/yousefmod/neoforge/biome_modifier/mbinigusini_biome_modifier.json",
+          "src/main/java/net/mcreator/yousefmod/entity/MbinigusiniEntity.java",
+          "src/main/resources/assets/yousefmod/models/item/mbinigusini_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -667,8 +682,7 @@
       "~CUSTOM:Bloc"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.SANDSTONE#0",
-      "~Blocks.SAND#0"
+      "~Blocks.SANDSTONE#0"
     ]
   },
   "tab_element_order": {},
@@ -676,6 +690,7 @@
     "en_us": {
       "item_group.yousefmod.yousefmod": "Yousefmod",
       "item.yousefmod.squid_gamedimension": "i",
+      "item.yousefmod.mbinigusini_spawn_egg": "Mbinigusini Spawn Egg",
       "entity.yousefmod.dragonn": "Dragonn",
       "subtitles.squidgame": "",
       "block.yousefmod.testblockyousef": "Imadyousefblock",
@@ -691,7 +706,8 @@
       "item.yousefmod.dragonn_spawn_egg": "Dragonn Spawn Egg",
       "gui.yousefmod.fanumtax.label_empty2": "",
       "gui.yousefmod.fanumtax.label_empty1": "",
-      "item.yousefmod.youse_fwand": "YOUSE Fwand"
+      "item.yousefmod.youse_fwand": "YOUSE Fwand",
+      "entity.yousefmod.mbinigusini": "Mbinigusini"
     }
   },
   "foldersRoot": {

@@ -1,6 +1,7 @@
 {
   "item_group.yousefmod.yousefmod": "Yousefmod",
   "item.yousefmod.squid_gamedimension": "i",
+  "item.yousefmod.mbinigusini_spawn_egg": "Mbinigusini Spawn Egg",
   "entity.yousefmod.dragonn": "Dragonn",
   "subtitles.squidgame": "",
   "block.yousefmod.testblockyousef": "Imadyousefblock",
@@ -16,5 +17,6 @@
   "item.yousefmod.dragonn_spawn_egg": "Dragonn Spawn Egg",
   "gui.yousefmod.fanumtax.label_empty2": "",
   "gui.yousefmod.fanumtax.label_empty1": "",
-  "item.yousefmod.youse_fwand": "YOUSE Fwand"
+  "item.yousefmod.youse_fwand": "YOUSE Fwand",
+  "entity.yousefmod.mbinigusini": "Mbinigusini"
 }

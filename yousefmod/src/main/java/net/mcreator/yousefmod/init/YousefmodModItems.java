@@ -28,6 +28,7 @@ public class YousefmodModItems {
 	public static final DeferredItem<Item> FOOTBALL = block(YousefmodModBlocks.FOOTBALL);
 	public static final DeferredItem<Item> YOYOCHAIR_SPAWN_EGG = REGISTRY.register("yoyochair_spawn_egg", () -> new DeferredSpawnEggItem(YousefmodModEntities.YOYOCHAIR, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> BLOC = block(YousefmodModBlocks.BLOC);
+	public static final DeferredItem<Item> MBINIGUSINI_SPAWN_EGG = REGISTRY.register("mbinigusini_spawn_egg", () -> new DeferredSpawnEggItem(YousefmodModEntities.MBINIGUSINI, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

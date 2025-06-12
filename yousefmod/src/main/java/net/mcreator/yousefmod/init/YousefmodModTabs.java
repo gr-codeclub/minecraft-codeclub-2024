@@ -39,6 +39,7 @@ public class YousefmodModTabs {
 
 			tabData.accept(YousefmodModItems.DRAGONN_SPAWN_EGG.get());
 			tabData.accept(YousefmodModItems.YOYOCHAIR_SPAWN_EGG.get());
+			tabData.accept(YousefmodModItems.MBINIGUSINI_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
