@@ -24,7 +24,7 @@ public class Modelbombininigusinini<T extends Entity> extends EntityModel<T> {
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath("yousefmod", "modelbombininigusinini"), "main");
 	public final ModelPart bb_main;
 
-	public bombinini gusinini(ModelPart root) {
+	public Modelbombininigusinini(ModelPart root) {
 		this.bb_main = root.getChild("bb_main");
 	}
 

@@ -8,7 +8,7 @@ public class bombininigusinini<T extends Entity> extends EntityModel<T> {
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("modid", "bombinini_gusinini"), "main");
 	private final ModelPart bb_main;
 
-	public bombinini gusinini(ModelPart root) {
+	public bombininigusinini(ModelPart root) {
 		this.bb_main = root.getChild("bb_main");
 	}
 

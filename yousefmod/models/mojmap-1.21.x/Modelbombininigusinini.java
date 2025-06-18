@@ -9,7 +9,7 @@ public class Modelbombininigusinini<T extends Entity> extends EntityModel<T> {
 			new ResourceLocation("modid", "bombinini_gusinini"), "main");
 	private final ModelPart bb_main;
 
-	public bombinini gusinini(ModelPart root) {
+	public Modelbombininigusinini(ModelPart root) {
 		this.bb_main = root.getChild("bb_main");
 	}
 
