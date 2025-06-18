@@ -66,7 +66,9 @@ public class PetRockRightClickedOnEntityProcedure {
 					if (world instanceof ServerLevel _level)
 						_level.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 10, 1, 1, 1, 1);
 					if (world instanceof Level _level && !_level.isClientSide())
-						_level.explode(null, x, y, z, 4, Level.ExplosionInteraction.MOB);
+						_level.explode(null, x, y, z, 10, Level.ExplosionInteraction.MOB);
+					if (sourceentity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("Pet Rock sneezed"), true);
 				});
 			});
 			return InteractionResult.CONSUME;

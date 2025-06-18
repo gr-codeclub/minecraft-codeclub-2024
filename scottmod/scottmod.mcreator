@@ -8,8 +8,8 @@
       "registry_name": "pet_rock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/scottmod/client/renderer/PetRockRenderer.java",
           "src/main/resources/assets/scottmod/models/item/pet_rock_spawn_egg.json",
+          "src/main/java/net/mcreator/scottmod/client/renderer/PetRockRenderer.java",
           "src/main/java/net/mcreator/scottmod/entity/PetRockEntity.java"
         ]
       }
