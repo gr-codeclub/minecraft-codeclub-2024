@@ -568,6 +568,28 @@
           "src/main/resources/assets/erikmod/models/item/shockwave_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "ShockwaveRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/ShockwaveRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -588,8 +610,8 @@
       "entity.erikmod.erikblue": "Erikblue",
       "block.erikmod.aboy": "Aboy",
       "biome.erikmod.freiyr": "Freiyr",
-      "item.erikmod.erikishim": "Erikishim Portal Igniter",
       "entity.erikmod.erikiishim": "Erikiishim",
+      "item.erikmod.erikishim": "Erikishim Portal Igniter",
       "block.erikmod.erik_blocks": "Erik Blocks",
       "item.erikmod.erikwandthebest": "Erikwandthebest",
       "item_group.erikmod.eriktab": "Eriktab",
