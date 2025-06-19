@@ -54,6 +54,7 @@ public class OogaboogablockgenModTabs {
 
 			tabData.accept(OogaboogablockgenModItems.DUCK_SPAWN_EGG.get());
 			tabData.accept(OogaboogablockgenModItems.CHAIR_SPAWN_EGG.get());
+			tabData.accept(OogaboogablockgenModItems.GRENADE_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

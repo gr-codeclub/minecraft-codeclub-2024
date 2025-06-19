@@ -9,6 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.mcreator.oogaboogablockgen.client.renderer.GrenadeRenderer;
 import net.mcreator.oogaboogablockgen.client.renderer.DuckRenderer;
 import net.mcreator.oogaboogablockgen.client.renderer.ChairRenderer;
 
@@ -18,5 +19,6 @@ public class OogaboogablockgenModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(OogaboogablockgenModEntities.DUCK.get(), DuckRenderer::new);
 		event.registerEntityRenderer(OogaboogablockgenModEntities.CHAIR.get(), ChairRenderer::new);
+		event.registerEntityRenderer(OogaboogablockgenModEntities.GRENADE.get(), GrenadeRenderer::new);
 	}
 }

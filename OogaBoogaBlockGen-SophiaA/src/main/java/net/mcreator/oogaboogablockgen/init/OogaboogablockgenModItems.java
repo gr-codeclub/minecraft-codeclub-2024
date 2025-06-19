@@ -42,6 +42,7 @@ public class OogaboogablockgenModItems {
 	public static final DeferredItem<Item> HELP_ME_PLEASE_JACOB_TRAPPED_ME_IN_HIS_BASEMENT = block(OogaboogablockgenModBlocks.HELP_ME_PLEASE_JACOB_TRAPPED_ME_IN_HIS_BASEMENT);
 	public static final DeferredItem<Item> CHAIR_SPAWN_EGG = REGISTRY.register("chair_spawn_egg", () -> new DeferredSpawnEggItem(OogaboogablockgenModEntities.CHAIR, -6239863, -7309725, new Item.Properties()));
 	public static final DeferredItem<Item> BANANA = REGISTRY.register("banana", BananaItem::new);
+	public static final DeferredItem<Item> GRENADE_SPAWN_EGG = REGISTRY.register("grenade_spawn_egg", () -> new DeferredSpawnEggItem(OogaboogablockgenModEntities.GRENADE, -12760805, -15788284, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
