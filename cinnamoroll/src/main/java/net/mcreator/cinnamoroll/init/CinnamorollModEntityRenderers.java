@@ -10,11 +10,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.cinnamoroll.client.renderer.JamchairRenderer;
+import net.mcreator.cinnamoroll.client.renderer.CuteRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CinnamorollModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(CinnamorollModEntities.JAMCHAIR.get(), JamchairRenderer::new);
+		event.registerEntityRenderer(CinnamorollModEntities.CUTE.get(), CuteRenderer::new);
 	}
 }

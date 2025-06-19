@@ -41,6 +41,7 @@ public class CinnamorollModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(CinnamorollModItems.JAMCHAIR_SPAWN_EGG.get());
+			tabData.accept(CinnamorollModItems.CUTE_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

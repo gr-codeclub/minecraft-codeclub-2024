@@ -34,6 +34,7 @@ public class CinnamorollModItems {
 	public static final DeferredItem<Item> BOB_THE_BUILDER = REGISTRY.register("bob_the_builder", BobTheBuilderItem::new);
 	public static final DeferredItem<Item> HOUSE = block(CinnamorollModBlocks.HOUSE);
 	public static final DeferredItem<Item> JAMCHAIR_SPAWN_EGG = REGISTRY.register("jamchair_spawn_egg", () -> new DeferredSpawnEggItem(CinnamorollModEntities.JAMCHAIR, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> CUTE_SPAWN_EGG = REGISTRY.register("cute_spawn_egg", () -> new DeferredSpawnEggItem(CinnamorollModEntities.CUTE, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.cinnamoroll.entity.JamchairEntity;
+import net.mcreator.cinnamoroll.entity.CuteEntity;
 import net.mcreator.cinnamoroll.CinnamorollMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,10 @@ public class CinnamorollModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, CinnamorollMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<JamchairEntity>> JAMCHAIR = register("jamchair",
 			EntityType.Builder.<JamchairEntity>of(JamchairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<CuteEntity>> CUTE = register("cute",
+			EntityType.Builder.<CuteEntity>of(CuteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
 
@@ -36,10 +41,12 @@ public class CinnamorollModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		JamchairEntity.init(event);
+		CuteEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(JAMCHAIR.get(), JamchairEntity.createAttributes().build());
+		event.put(CUTE.get(), CuteEntity.createAttributes().build());
 	}
 }

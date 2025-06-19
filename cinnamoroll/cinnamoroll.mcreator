@@ -453,6 +453,34 @@
           }
         ]
       }
+    },
+    {
+      "name": "Cute",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cute",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cinnamoroll/neoforge/biome_modifier/cute_biome_modifier.json",
+          "src/main/resources/assets/cinnamoroll/models/item/cute_spawn_egg.json",
+          "src/main/java/net/mcreator/cinnamoroll/client/renderer/CuteRenderer.java",
+          "src/main/java/net/mcreator/cinnamoroll/entity/CuteEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CuteRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cute_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/CuteRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -468,12 +496,14 @@
       "item.cinnamoroll.bob_the_builder": "Bob The Builder Portal Igniter",
       "entity.cinnamoroll.jamchair": "Jamchair",
       "block.cinnamoroll.winter_land": "Winter Land",
-      "block.cinnamoroll.lo_l": "Lo L",
-      "block.cinnamoroll.winterblock_2": "Winter Land 2",
       "item_group.cinnamoroll.lollipop": "Lollipop",
       "item.cinnamoroll.jamchair_spawn_egg": "Jamchair Spawn Egg",
-      "item.cinnamoroll.sunsetwand": "Sunsetwand",
       "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet",
+      "entity.cinnamoroll.cute": "Cute",
+      "block.cinnamoroll.lo_l": "Lo L",
+      "block.cinnamoroll.winterblock_2": "Winter Land 2",
+      "item.cinnamoroll.sunsetwand": "Sunsetwand",
+      "item.cinnamoroll.cute_spawn_egg": "Cute Spawn Egg",
       "block.cinnamoroll.house": "House"
     }
   },
