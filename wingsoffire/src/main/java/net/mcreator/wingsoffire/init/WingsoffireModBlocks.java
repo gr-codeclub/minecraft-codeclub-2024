@@ -4,6 +4,8 @@
  */
 package net.mcreator.wingsoffire.init;
 
+import org.checkerframework.checker.units.qual.A;
+
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
@@ -13,19 +15,30 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.wingsoffire.block.WwwBlock;
+import net.mcreator.wingsoffire.block.WowtenshousanisrubbishBlock;
+import net.mcreator.wingsoffire.block.WoewBlock;
+import net.mcreator.wingsoffire.block.WinningBlock;
 import net.mcreator.wingsoffire.block.WingsOfFireexBlock;
+import net.mcreator.wingsoffire.block.TwentyblockcelebrationBlock;
 import net.mcreator.wingsoffire.block.StrawberryBlock;
 import net.mcreator.wingsoffire.block.PollyfrogblockBlock;
 import net.mcreator.wingsoffire.block.MomolandhouseblockBlock;
 import net.mcreator.wingsoffire.block.MomofrogsigmaBlock;
 import net.mcreator.wingsoffire.block.MomofrogdimensionPortalBlock;
+import net.mcreator.wingsoffire.block.MeowBlock;
 import net.mcreator.wingsoffire.block.LolBlock;
+import net.mcreator.wingsoffire.block.IwillhavrmostblocksBlock;
+import net.mcreator.wingsoffire.block.IwillbeatsophieinmostblocksBlock;
 import net.mcreator.wingsoffire.block.IdkBlock;
 import net.mcreator.wingsoffire.block.HhshhsshsBlock;
 import net.mcreator.wingsoffire.block.GyattBlock;
 import net.mcreator.wingsoffire.block.FunblockBlock;
+import net.mcreator.wingsoffire.block.CuteBlock;
 import net.mcreator.wingsoffire.block.CheckersBlock;
 import net.mcreator.wingsoffire.block.BlockyBlock;
+import net.mcreator.wingsoffire.block.ANIKABlock;
+import net.mcreator.wingsoffire.block.ABlock;
 import net.mcreator.wingsoffire.WingsoffireMod;
 
 public class WingsoffireModBlocks {
@@ -43,6 +56,17 @@ public class WingsoffireModBlocks {
 	public static final DeferredBlock<Block> HHSHHSSHS = REGISTRY.register("hhshhsshs", HhshhsshsBlock::new);
 	public static final DeferredBlock<Block> STRAWBERRY = REGISTRY.register("strawberry", StrawberryBlock::new);
 	public static final DeferredBlock<Block> LOL = REGISTRY.register("lol", LolBlock::new);
+	public static final DeferredBlock<Block> ANIKA = REGISTRY.register("anika", ANIKABlock::new);
+	public static final DeferredBlock<Block> WINNING = REGISTRY.register("winning", WinningBlock::new);
+	public static final DeferredBlock<Block> IWILLHAVRMOSTBLOCKS = REGISTRY.register("iwillhavrmostblocks", IwillhavrmostblocksBlock::new);
+	public static final DeferredBlock<Block> IWILLBEATSOPHIEINMOSTBLOCKS = REGISTRY.register("iwillbeatsophieinmostblocks", IwillbeatsophieinmostblocksBlock::new);
+	public static final DeferredBlock<Block> WOEW = REGISTRY.register("woew", WoewBlock::new);
+	public static final DeferredBlock<Block> A = REGISTRY.register("a", ABlock::new);
+	public static final DeferredBlock<Block> WOWTENSHOUSANISRUBBISH = REGISTRY.register("wowtenshousanisrubbish", WowtenshousanisrubbishBlock::new);
+	public static final DeferredBlock<Block> CUTE = REGISTRY.register("cute", CuteBlock::new);
+	public static final DeferredBlock<Block> MEOW = REGISTRY.register("meow", MeowBlock::new);
+	public static final DeferredBlock<Block> WWW = REGISTRY.register("www", WwwBlock::new);
+	public static final DeferredBlock<Block> TWENTYBLOCKCELEBRATION = REGISTRY.register("twentyblockcelebration", TwentyblockcelebrationBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

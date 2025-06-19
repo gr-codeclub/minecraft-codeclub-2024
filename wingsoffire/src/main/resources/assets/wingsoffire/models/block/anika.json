@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/amazingbloick",
+    "up": "wingsoffire:block/amazingbloick",
+    "north": "wingsoffire:block/amazingbloick",
+    "east": "wingsoffire:block/amazingbloick",
+    "south": "wingsoffire:block/amazingbloick",
+    "west": "wingsoffire:block/amazingbloick",
+    "particle": "wingsoffire:block/amazingbloick"
+  },
+  "render_type": "solid"
+}

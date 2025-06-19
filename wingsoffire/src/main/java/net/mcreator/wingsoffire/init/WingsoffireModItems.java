@@ -4,6 +4,8 @@
  */
 package net.mcreator.wingsoffire.init;
 
+import org.checkerframework.checker.units.qual.A;
+
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -44,6 +46,17 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> STRAWBERRY = block(WingsoffireModBlocks.STRAWBERRY);
 	public static final DeferredItem<Item> LOL = block(WingsoffireModBlocks.LOL);
 	public static final DeferredItem<Item> SCOTTTHESCOOTER_SPAWN_EGG = REGISTRY.register("scottthescooter_spawn_egg", () -> new DeferredSpawnEggItem(WingsoffireModEntities.SCOTTTHESCOOTER, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> ANIKA = block(WingsoffireModBlocks.ANIKA);
+	public static final DeferredItem<Item> WINNING = block(WingsoffireModBlocks.WINNING);
+	public static final DeferredItem<Item> IWILLHAVRMOSTBLOCKS = block(WingsoffireModBlocks.IWILLHAVRMOSTBLOCKS);
+	public static final DeferredItem<Item> IWILLBEATSOPHIEINMOSTBLOCKS = block(WingsoffireModBlocks.IWILLBEATSOPHIEINMOSTBLOCKS);
+	public static final DeferredItem<Item> WOEW = block(WingsoffireModBlocks.WOEW);
+	public static final DeferredItem<Item> A = block(WingsoffireModBlocks.A);
+	public static final DeferredItem<Item> WOWTENSHOUSANISRUBBISH = block(WingsoffireModBlocks.WOWTENSHOUSANISRUBBISH);
+	public static final DeferredItem<Item> CUTE = block(WingsoffireModBlocks.CUTE);
+	public static final DeferredItem<Item> MEOW = block(WingsoffireModBlocks.MEOW);
+	public static final DeferredItem<Item> WWW = block(WingsoffireModBlocks.WWW);
+	public static final DeferredItem<Item> TWENTYBLOCKCELEBRATION = block(WingsoffireModBlocks.TWENTYBLOCKCELEBRATION);
 
 	// Start of user code block custom items
 	// End of user code block custom items

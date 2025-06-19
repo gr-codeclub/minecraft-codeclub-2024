@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/cakebigback",
+    "up": "wingsoffire:block/cakebigback",
+    "north": "wingsoffire:block/cakebigback",
+    "east": "wingsoffire:block/cakebigback",
+    "south": "wingsoffire:block/cakebigback",
+    "west": "wingsoffire:block/cakebigback",
+    "particle": "wingsoffire:block/cakebigback"
+  },
+  "render_type": "solid"
+}

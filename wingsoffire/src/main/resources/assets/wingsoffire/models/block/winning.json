@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/iwillwin",
+    "up": "wingsoffire:block/iwillwin",
+    "north": "wingsoffire:block/iwillwin",
+    "east": "wingsoffire:block/iwillwin",
+    "south": "wingsoffire:block/iwillwin",
+    "west": "wingsoffire:block/iwillwin",
+    "particle": "wingsoffire:block/iwillwin"
+  },
+  "render_type": "solid"
+}

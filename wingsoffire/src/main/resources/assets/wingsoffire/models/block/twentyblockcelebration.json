@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/yay",
+    "up": "wingsoffire:block/yay",
+    "north": "wingsoffire:block/yay",
+    "east": "wingsoffire:block/yay",
+    "south": "wingsoffire:block/yay",
+    "west": "wingsoffire:block/yay",
+    "particle": "wingsoffire:block/yay"
+  },
+  "render_type": "solid"
+}

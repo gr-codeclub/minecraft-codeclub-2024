@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/llavacchicken",
+    "up": "wingsoffire:block/llavacchicken",
+    "north": "wingsoffire:block/llavacchicken",
+    "east": "wingsoffire:block/llavacchicken",
+    "south": "wingsoffire:block/llavacchicken",
+    "west": "wingsoffire:block/llavacchicken",
+    "particle": "wingsoffire:block/llavacchicken"
+  },
+  "render_type": "solid"
+}

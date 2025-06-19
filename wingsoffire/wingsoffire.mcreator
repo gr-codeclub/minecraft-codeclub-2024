@@ -663,6 +663,204 @@
           "src/main/java/net/mcreator/wingsoffire/client/renderer/SCOTTTHESCOOTERRenderer.java"
         ]
       }
+    },
+    {
+      "name": "ANIKA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anika",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/blockstates/anika.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/anika.json",
+          "src/main/resources/assets/wingsoffire/models/item/anika.json",
+          "src/main/java/net/mcreator/wingsoffire/block/ANIKABlock.java",
+          "src/main/resources/assets/wingsoffire/models/block/anika.json"
+        ]
+      }
+    },
+    {
+      "name": "Winning",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/winning.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/winning.json",
+          "src/main/java/net/mcreator/wingsoffire/block/WinningBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/winning.json",
+          "src/main/resources/assets/wingsoffire/models/block/winning.json"
+        ]
+      }
+    },
+    {
+      "name": "Iwillhavrmostblocks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iwillhavrmostblocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/iwillhavrmostblocks.json",
+          "src/main/java/net/mcreator/wingsoffire/block/IwillhavrmostblocksBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/iwillhavrmostblocks.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/iwillhavrmostblocks.json",
+          "src/main/resources/assets/wingsoffire/models/block/iwillhavrmostblocks.json"
+        ]
+      }
+    },
+    {
+      "name": "Iwillbeatsophieinmostblocks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iwillbeatsophieinmostblocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/blockstates/iwillbeatsophieinmostblocks.json",
+          "src/main/resources/assets/wingsoffire/models/block/iwillbeatsophieinmostblocks.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/iwillbeatsophieinmostblocks.json",
+          "src/main/resources/assets/wingsoffire/models/item/iwillbeatsophieinmostblocks.json",
+          "src/main/java/net/mcreator/wingsoffire/block/IwillbeatsophieinmostblocksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Woew",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/loot_table/blocks/woew.json",
+          "src/main/resources/assets/wingsoffire/models/item/woew.json",
+          "src/main/resources/assets/wingsoffire/models/block/woew.json",
+          "src/main/resources/assets/wingsoffire/blockstates/woew.json",
+          "src/main/java/net/mcreator/wingsoffire/block/WoewBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "A",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/a.json",
+          "src/main/resources/assets/wingsoffire/models/block/a.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/a.json",
+          "src/main/resources/assets/wingsoffire/blockstates/a.json",
+          "src/main/java/net/mcreator/wingsoffire/block/ABlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Wowtenshousanisrubbish",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wowtenshousanisrubbish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/wowtenshousanisrubbish.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/wowtenshousanisrubbish.json",
+          "src/main/resources/assets/wingsoffire/blockstates/wowtenshousanisrubbish.json",
+          "src/main/resources/assets/wingsoffire/models/block/wowtenshousanisrubbish.json",
+          "src/main/java/net/mcreator/wingsoffire/block/WowtenshousanisrubbishBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Cute",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/CuteBlock.java",
+          "src/main/resources/assets/wingsoffire/models/item/cute.json",
+          "src/main/resources/assets/wingsoffire/models/block/cute.json",
+          "src/main/resources/assets/wingsoffire/blockstates/cute.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/cute.json"
+        ]
+      }
+    },
+    {
+      "name": "Meow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/meow.json",
+          "src/main/resources/assets/wingsoffire/models/block/meow.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/meow.json",
+          "src/main/java/net/mcreator/wingsoffire/block/MeowBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/meow.json"
+        ]
+      }
+    },
+    {
+      "name": "Www",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "www",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/WwwBlock.java",
+          "src/main/resources/assets/wingsoffire/models/block/www.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/www.json",
+          "src/main/resources/assets/wingsoffire/models/item/www.json",
+          "src/main/resources/assets/wingsoffire/blockstates/www.json"
+        ]
+      }
+    },
+    {
+      "name": "Twentyblockcelebration",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twentyblockcelebration",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/twentyblockcelebration.json",
+          "src/main/resources/assets/wingsoffire/models/block/twentyblockcelebration.json",
+          "src/main/java/net/mcreator/wingsoffire/block/TwentyblockcelebrationBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/twentyblockcelebration.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/twentyblockcelebration.json"
+        ]
+      }
+    },
+    {
+      "name": "SCOTTTHESCOOTERRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scottthescooter_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/SCOTTTHESCOOTERRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -676,27 +874,38 @@
   "language_map": {
     "en_us": {
       "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
-      "item.wingsoffire.anika_chair_spawn_egg": "Anika Chair Spawn Egg",
-      "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
-      "block.wingsoffire.blocky": "Blocky",
-      "entity.wingsoffire.anikawof": "Anikawof",
+      "block.wingsoffire.a": "A",
       "block.wingsoffire.hhshhsshs": "Hhshhsshs",
       "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
       "block.wingsoffire.idk": "Idk",
-      "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "gui.wingsoffire.checkersgui.label_empty": "",
-      "block.wingsoffire.gyatt": "Gyatt",
+      "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
-      "entity.wingsoffire.scottthescooter": "SCOTTTHESCOOTER",
       "entity.wingsoffire.anika_chair": "Anika Chair",
       "block.wingsoffire.funblock": "Funblock",
       "item_group.wingsoffire.glorys_tab": "Glorys Tab",
-      "block.wingsoffire.lol": "Lol",
-      "block.wingsoffire.momofrogsigma": "Momofrogsigma",
-      "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
+      "block.wingsoffire.cute": "Cute",
+      "block.wingsoffire.woew": "Woew",
       "block.wingsoffire.strawberry": "Strawberry",
+      "block.wingsoffire.checkers": "Checkers",
+      "block.wingsoffire.wowtenshousanisrubbish": "Wowtenshousanisrubbish",
+      "item.wingsoffire.anika_chair_spawn_egg": "Anika Chair Spawn Egg",
+      "block.wingsoffire.www": "Www",
+      "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
+      "block.wingsoffire.blocky": "Blocky",
+      "block.wingsoffire.twentyblockcelebration": "Twentyblockcelebration",
+      "entity.wingsoffire.anikawof": "Anikawof",
+      "block.wingsoffire.gyatt": "Gyatt",
+      "entity.wingsoffire.scottthescooter": "SCOTTTHESCOOTER",
+      "block.wingsoffire.iwillbeatsophieinmostblocks": "Iwillbeatsophieinmostblocks",
+      "block.wingsoffire.winning": "Winning",
+      "block.wingsoffire.lol": "Lol",
+      "block.wingsoffire.iwillhavrmostblocks": "Iwillhavrmostblocks",
+      "block.wingsoffire.momofrogsigma": "Momofrogsigma",
+      "block.wingsoffire.meow": "Meow",
+      "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
       "item.wingsoffire.scottthescooter_spawn_egg": "SCOTTTHESCOOTER Spawn Egg",
-      "block.wingsoffire.checkers": "Checkers"
+      "block.wingsoffire.anika": "ANIKA"
     }
   },
   "foldersRoot": {
