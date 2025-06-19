@@ -655,10 +655,10 @@
       "registry_name": "mbinigusini",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/yousefmod/client/renderer/MbinigusiniRenderer.java",
-          "src/main/resources/data/yousefmod/neoforge/biome_modifier/mbinigusini_biome_modifier.json",
           "src/main/java/net/mcreator/yousefmod/entity/MbinigusiniEntity.java",
-          "src/main/resources/assets/yousefmod/models/item/mbinigusini_spawn_egg.json"
+          "src/main/resources/assets/yousefmod/models/item/mbinigusini_spawn_egg.json",
+          "src/main/resources/data/yousefmod/neoforge/biome_modifier/mbinigusini_biome_modifier.json",
+          "src/main/java/net/mcreator/yousefmod/client/renderer/MbinigusiniRenderer.java"
         ]
       }
     }
