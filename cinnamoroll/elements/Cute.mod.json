@@ -21,7 +21,20 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
-    "modelLayers": [],
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "cutetexture.png",
+        "disableHurtOverlay": false,
+        "glow": false
+      },
+      {
+        "model": "Default",
+        "texture": "pinkie.png",
+        "disableHurtOverlay": false,
+        "glow": false
+      }
+    ],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
