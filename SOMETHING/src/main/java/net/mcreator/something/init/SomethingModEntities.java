@@ -32,9 +32,8 @@ public class SomethingModEntities {
 			EntityType.Builder.<JakyChairEntity>of(JakyChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
-	public static final DeferredHolder<EntityType<?>, EntityType<POOEntity>> POO = register("poo", EntityType.Builder.<POOEntity>of(POOEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-			.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<POOEntity>> POO = register("poo",
+			EntityType.Builder.<POOEntity>of(POOEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
