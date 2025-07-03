@@ -581,12 +581,24 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           },
           {
-            "name": "sourceentity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -610,8 +622,8 @@
       "entity.erikmod.erikblue": "Erikblue",
       "block.erikmod.aboy": "Aboy",
       "biome.erikmod.freiyr": "Freiyr",
-      "entity.erikmod.erikiishim": "Erikiishim",
       "item.erikmod.erikishim": "Erikishim Portal Igniter",
+      "entity.erikmod.erikiishim": "Erikiishim",
       "block.erikmod.erik_blocks": "Erik Blocks",
       "item.erikmod.erikwandthebest": "Erikwandthebest",
       "item_group.erikmod.eriktab": "Eriktab",

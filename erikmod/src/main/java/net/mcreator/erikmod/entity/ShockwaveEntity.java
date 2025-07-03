@@ -75,7 +75,7 @@ public class ShockwaveEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level();
 
-		ShockwaveRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		ShockwaveRightClickedOnEntityProcedure.execute(world, x, y, z, sourceentity);
 		return retval;
 	}
 
