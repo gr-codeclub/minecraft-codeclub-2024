@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModTabs;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModSounds;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModPotions;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModParticleTypes;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModMobEffects;
@@ -47,7 +48,7 @@ public class OogaboogablockgenMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		OogaboogablockgenModSounds.REGISTRY.register(modEventBus);
 		OogaboogablockgenModBlocks.REGISTRY.register(modEventBus);
 		OogaboogablockgenModBlockEntities.REGISTRY.register(modEventBus);
 		OogaboogablockgenModItems.REGISTRY.register(modEventBus);

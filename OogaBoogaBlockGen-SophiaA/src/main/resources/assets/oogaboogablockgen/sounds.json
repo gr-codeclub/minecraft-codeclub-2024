@@ -1,0 +1,10 @@
+{
+  "winninggrenade": {
+    "sounds": [
+      {
+        "name": "oogaboogablockgen:winning.ogg",
+        "stream": true
+      }
+    ]
+  }
+}
