@@ -1,11 +1,12 @@
 {
+  "block.wingsoffire.iwin": "Iwin",
   "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
   "block.wingsoffire.a": "A",
   "block.wingsoffire.hhshhsshs": "Hhshhsshs",
   "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
   "block.wingsoffire.idk": "Idk",
-  "gui.wingsoffire.checkersgui.label_empty": "",
   "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
+  "gui.wingsoffire.checkersgui.label_empty": "",
   "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
   "entity.wingsoffire.anika_chair": "Anika Chair",
   "block.wingsoffire.funblock": "Funblock",

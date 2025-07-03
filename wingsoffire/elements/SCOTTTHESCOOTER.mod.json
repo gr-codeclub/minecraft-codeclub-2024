@@ -119,7 +119,22 @@
     "raidCelebrationSound": {
       "value": ""
     },
-    "entityDataEntries": [],
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "moodVal",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "mood",
+        "type": "integer",
+        "value": 0
+      }
+    ],
     "onRightClickedOn": {
       "name": "SCOTTTHESCOOTERRightClickedOnEntity"
     },

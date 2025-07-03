@@ -27,16 +27,30 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.wingsoffire.procedures.SCOTTTHESCOOTERRightClickedOnEntityProcedure;
 import net.mcreator.wingsoffire.init.WingsoffireModEntities;
 
 public class SCOTTTHESCOOTEREntity extends PathfinderMob {
+	public static final EntityDataAccessor<Integer> DATA_moodVal = SynchedEntityData.defineId(SCOTTTHESCOOTEREntity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Integer> DATA_mood = SynchedEntityData.defineId(SCOTTTHESCOOTEREntity.class, EntityDataSerializers.INT);
+
 	public SCOTTTHESCOOTEREntity(EntityType<SCOTTTHESCOOTEREntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+	}
+
+	@Override
+	protected void defineSynchedData(SynchedEntityData.Builder builder) {
+		super.defineSynchedData(builder);
+		builder.define(DATA_moodVal, 0);
+		builder.define(DATA_mood, 0);
 	}
 
 	@Override
@@ -62,6 +76,22 @@ public class SCOTTTHESCOOTEREntity extends PathfinderMob {
 	@Override
 	public SoundEvent getDeathSound() {
 		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.generic.death"));
+	}
+
+	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putInt("DatamoodVal", this.entityData.get(DATA_moodVal));
+		compound.putInt("Datamood", this.entityData.get(DATA_mood));
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("DatamoodVal"))
+			this.entityData.set(DATA_moodVal, compound.getInt("DatamoodVal"));
+		if (compound.contains("Datamood"))
+			this.entityData.set(DATA_mood, compound.getInt("Datamood"));
 	}
 
 	@Override

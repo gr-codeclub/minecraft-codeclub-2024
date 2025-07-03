@@ -657,9 +657,9 @@
       "registry_name": "scottthescooter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/wingsoffire/entity/SCOTTTHESCOOTEREntity.java",
           "src/main/resources/assets/wingsoffire/models/item/scottthescooter_spawn_egg.json",
           "src/main/resources/data/wingsoffire/neoforge/biome_modifier/scottthescooter_biome_modifier.json",
+          "src/main/java/net/mcreator/wingsoffire/entity/SCOTTTHESCOOTEREntity.java",
           "src/main/java/net/mcreator/wingsoffire/client/renderer/SCOTTTHESCOOTERRenderer.java"
         ]
       }
@@ -861,6 +861,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Iwin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iwin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/loot_table/blocks/iwin.json",
+          "src/main/resources/assets/wingsoffire/blockstates/iwin.json",
+          "src/main/resources/assets/wingsoffire/models/block/iwin.json",
+          "src/main/java/net/mcreator/wingsoffire/block/IwinBlock.java",
+          "src/main/resources/assets/wingsoffire/models/item/iwin.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -873,13 +889,14 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.wingsoffire.iwin": "Iwin",
       "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
       "block.wingsoffire.a": "A",
       "block.wingsoffire.hhshhsshs": "Hhshhsshs",
       "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
       "block.wingsoffire.idk": "Idk",
-      "gui.wingsoffire.checkersgui.label_empty": "",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
+      "gui.wingsoffire.checkersgui.label_empty": "",
       "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
       "entity.wingsoffire.anika_chair": "Anika Chair",
       "block.wingsoffire.funblock": "Funblock",

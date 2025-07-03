@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/growagardenwaaa",
+    "up": "wingsoffire:block/growagardenwaaa",
+    "north": "wingsoffire:block/growagardenwaaa",
+    "east": "wingsoffire:block/growagardenwaaa",
+    "south": "wingsoffire:block/growagardenwaaa",
+    "west": "wingsoffire:block/growagardenwaaa",
+    "particle": "wingsoffire:block/growagardenwaaa"
+  },
+  "render_type": "solid"
+}

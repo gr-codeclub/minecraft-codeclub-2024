@@ -28,6 +28,7 @@ import net.mcreator.wingsoffire.block.MomofrogsigmaBlock;
 import net.mcreator.wingsoffire.block.MomofrogdimensionPortalBlock;
 import net.mcreator.wingsoffire.block.MeowBlock;
 import net.mcreator.wingsoffire.block.LolBlock;
+import net.mcreator.wingsoffire.block.IwinBlock;
 import net.mcreator.wingsoffire.block.IwillhavrmostblocksBlock;
 import net.mcreator.wingsoffire.block.IwillbeatsophieinmostblocksBlock;
 import net.mcreator.wingsoffire.block.IdkBlock;
@@ -67,6 +68,7 @@ public class WingsoffireModBlocks {
 	public static final DeferredBlock<Block> MEOW = REGISTRY.register("meow", MeowBlock::new);
 	public static final DeferredBlock<Block> WWW = REGISTRY.register("www", WwwBlock::new);
 	public static final DeferredBlock<Block> TWENTYBLOCKCELEBRATION = REGISTRY.register("twentyblockcelebration", TwentyblockcelebrationBlock::new);
+	public static final DeferredBlock<Block> IWIN = REGISTRY.register("iwin", IwinBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
