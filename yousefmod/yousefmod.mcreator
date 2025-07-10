@@ -661,6 +661,28 @@
           "src/main/java/net/mcreator/yousefmod/client/renderer/MbinigusiniRenderer.java"
         ]
       }
+    },
+    {
+      "name": "MbinigusiniRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mbinigusini_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/procedures/MbinigusiniRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -74,7 +74,7 @@ public class MbinigusiniEntity extends Monster {
 		Entity entity = this;
 		Level world = this.level();
 
-		MbinigusiniRightClickedOnEntityProcedure.execute();
+		MbinigusiniRightClickedOnEntityProcedure.execute(world, sourceentity);
 		return retval;
 	}
 
