@@ -10,7 +10,7 @@ import net.mcreator.cavarli.client.model.Modelcj;
 
 public class CjRenderer extends MobRenderer<CjEntity, Modelcj<CjEntity>> {
 	public CjRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelcj(context.bakeLayer(Modelcj.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelcj<CjEntity>(context.bakeLayer(Modelcj.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

@@ -83,10 +83,20 @@ public class CacacacacacaGUIMenu extends AbstractContainerMenu implements Suppli
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 21, 14) {
+			private final int slot = 0;
+			private int x = CacacacacacaGUIMenu.this.x;
+			private int y = CacacacacacaGUIMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 20, 52) {
+			private final int slot = 1;
+			private int x = CacacacacacaGUIMenu.this.x;
+			private int y = CacacacacacaGUIMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 141, 40) {
+			private final int slot = 2;
+			private int x = CacacacacacaGUIMenu.this.x;
+			private int y = CacacacacacaGUIMenu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

@@ -4,15 +4,15 @@
       "name": "CavarliBlock",
       "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "cavarli_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/cavarli/loot_table/blocks/cavarli_block.json",
-          "src/main/resources/assets/cavarli/models/block/cavarli_block.json",
           "src/main/java/net/mcreator/cavarli/block/CavarliBlockBlock.java",
           "src/main/resources/assets/cavarli/models/item/cavarli_block.json",
-          "src/main/resources/assets/cavarli/blockstates/cavarli_block.json"
+          "src/main/resources/assets/cavarli/blockstates/cavarli_block.json",
+          "src/main/resources/data/cavarli/loot_table/blocks/cavarli_block.json",
+          "src/main/resources/assets/cavarli/models/block/cavarli_block.json"
         ]
       }
     },
@@ -124,12 +124,12 @@
       "registry_name": "ohiotolenoob_1234",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cavarli/models/item/ohiotolenoob_1234.json",
-          "src/main/resources/assets/cavarli/blockstates/ohiotolenoob_1234.json",
           "src/main/resources/assets/cavarli/models/block/ohiotolenoob_1234.json",
           "src/main/java/net/mcreator/cavarli/block/OHIOTOLENOOB1234Block.java",
+          "src/main/java/net/mcreator/cavarli/block/entity/OHIOTOLENOOB1234BlockEntity.java",
           "src/main/resources/data/cavarli/loot_table/blocks/ohiotolenoob_1234.json",
-          "src/main/java/net/mcreator/cavarli/block/entity/OHIOTOLENOOB1234BlockEntity.java"
+          "src/main/resources/assets/cavarli/models/item/ohiotolenoob_1234.json",
+          "src/main/resources/assets/cavarli/blockstates/ohiotolenoob_1234.json"
         ]
       }
     },
@@ -217,8 +217,8 @@
         "files": [
           "src/main/resources/data/cavarli/neoforge/biome_modifier/noob_1234567890_ohio_biome_modifier.json",
           "src/main/java/net/mcreator/cavarli/client/renderer/Noob1234567890OHIORenderer.java",
-          "src/main/java/net/mcreator/cavarli/entity/Noob1234567890OHIOEntity.java",
-          "src/main/resources/assets/cavarli/models/item/noob_1234567890_ohio_spawn_egg.json"
+          "src/main/resources/assets/cavarli/models/item/noob_1234567890_ohio_spawn_egg.json",
+          "src/main/java/net/mcreator/cavarli/entity/Noob1234567890OHIOEntity.java"
         ]
       }
     },
@@ -230,45 +230,120 @@
       "registry_name": "lolc_1234",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cavarli/world/dimension/Lolc1234Dimension.java",
           "src/main/resources/data/cavarli/dimension_type/lolc_1234.json",
-          "src/main/resources/assets/cavarli/blockstates/lolc_1234_portal.json",
           "src/main/resources/data/cavarli/dimension/lolc_1234.json",
-          "src/main/resources/assets/cavarli/models/block/lolc_1234_portal_ns.json",
-          "src/main/java/net/mcreator/cavarli/world/teleporter/Lolc1234PortalShape.java",
           "src/main/java/net/mcreator/cavarli/block/Lolc1234PortalBlock.java",
           "src/main/resources/assets/cavarli/models/block/lolc_1234_portal_ew.json",
-          "src/main/java/net/mcreator/cavarli/world/dimension/Lolc1234Dimension.java",
-          "src/main/java/net/mcreator/cavarli/world/teleporter/Lolc1234Teleporter.java",
+          "src/main/resources/assets/cavarli/models/item/lolc_1234.json",
+          "src/main/java/net/mcreator/cavarli/world/teleporter/Lolc1234PortalShape.java",
+          "src/main/resources/assets/cavarli/blockstates/lolc_1234_portal.json",
           "src/main/java/net/mcreator/cavarli/item/Lolc1234Item.java",
-          "src/main/resources/assets/cavarli/models/item/lolc_1234.json"
+          "src/main/resources/assets/cavarli/models/block/lolc_1234_portal_ns.json",
+          "src/main/java/net/mcreator/cavarli/world/teleporter/Lolc1234Teleporter.java"
         ]
       }
     },
     {
-      "name": "Lolsusc",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lolsusc",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/cavarli/block/LolsuscBlock.java",
-          "src/main/resources/assets/cavarli/models/block/lolsusc.json",
-          "src/main/resources/assets/cavarli/models/item/lolsusc.json",
-          "src/main/resources/assets/cavarli/blockstates/lolsusc.json",
-          "src/main/resources/data/cavarli/loot_table/blocks/lolsusc.json"
-        ]
-      }
-    },
-    {
-      "name": "Amungus1",
+      "name": "HouseWandProcedure",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amungus_1",
+      "registry_name": "house_wand_procedure",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cavarli/procedures/Amungus1Procedure.java"
+          "src/main/java/net/mcreator/cavarli/procedures/HouseWandProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HouseWandTool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_wand_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavarli/models/item/house_wand_tool.json",
+          "src/main/java/net/mcreator/cavarli/item/HouseWandToolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CavarliChair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavarli_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavarli/models/item/cavarli_chair_spawn_egg.json",
+          "src/main/java/net/mcreator/cavarli/entity/CavarliChairEntity.java",
+          "src/main/java/net/mcreator/cavarli/client/renderer/CavarliChairRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "CavarliChairOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavarli_chair_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/CavarliChairOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amungus1Procedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amungus_1_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/Amungus1ProcedureProcedure.java"
         ],
         "dependencies": [
           {
@@ -298,10 +373,88 @@
       "registry_name": "cj",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cavarli/client/renderer/CjRenderer.java",
-          "src/main/resources/data/cavarli/neoforge/biome_modifier/cj_biome_modifier.json",
           "src/main/java/net/mcreator/cavarli/entity/CjEntity.java",
-          "src/main/resources/assets/cavarli/models/item/cj_spawn_egg.json"
+          "src/main/resources/assets/cavarli/models/item/cj_spawn_egg.json",
+          "src/main/java/net/mcreator/cavarli/client/renderer/CjRenderer.java",
+          "src/main/resources/data/cavarli/neoforge/biome_modifier/cj_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Lolsusc",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolsusc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavarli/loot_table/blocks/lolsusc.json",
+          "src/main/java/net/mcreator/cavarli/block/LolsuscBlock.java",
+          "src/main/resources/assets/cavarli/blockstates/lolsusc.json",
+          "src/main/resources/assets/cavarli/models/block/lolsusc.json",
+          "src/main/resources/assets/cavarli/models/item/lolsusc.json"
+        ]
+      }
+    },
+    {
+      "name": "AngryFuoBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_fuo_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/block/AngryFuoBlockBlock.java",
+          "src/main/resources/data/cavarli/loot_table/blocks/angry_fuo_block.json",
+          "src/main/resources/assets/cavarli/models/item/angry_fuo_block.json",
+          "src/main/resources/assets/cavarli/blockstates/angry_fuo_block.json",
+          "src/main/resources/assets/cavarli/models/block/angry_fuo_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TtrsBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ttrs_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavarli/loot_table/blocks/ttrs_block.json",
+          "src/main/java/net/mcreator/cavarli/block/TtrsBlockBlock.java",
+          "src/main/resources/assets/cavarli/models/item/ttrs_block.json",
+          "src/main/resources/assets/cavarli/models/block/ttrs_block.json",
+          "src/main/resources/assets/cavarli/blockstates/ttrs_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AngryFuoBlockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_fuo_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/AngryFuoBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -309,6 +462,9 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:HouseWandTool"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.STONE#0"
     ]
@@ -316,17 +472,22 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.cavarli.cavarli_chair_spawn_egg": "Cavarli Chair Spawn Egg",
       "block.cavarli.cavarli_block": "Cavarli Block",
       "item.cavarli.cavarl_inoob_1234567890": "CAVARL Inoob 1 2 3 4 5 6 7 8 9 0",
       "item_group.cavarli.ohiocavarli": "Ohiocavarli",
       "block.cavarli.lolsusc": "Lolsusc",
+      "entity.cavarli.cavarli_chair": "Cavarli Chair",
       "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4",
       "gui.cavarli.cacacacacaca_gui.label_empty1": "",
       "entity.cavarli.cj": "Cj",
+      "item.cavarli.house_wand_tool": "House Wand",
       "item.cavarli.lolc_1234": "Lolc 1 2 3 4 Portal Igniter",
       "entity.cavarli.noob_1234567890_ohio": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO",
       "item.cavarli.cj_spawn_egg": "Cj Spawn Egg",
       "gui.cavarli.cacacacacaca_gui.label_empty": "",
+      "block.cavarli.ttrs_block": "TtrsBlock",
+      "block.cavarli.angry_fuo_block": "AngryfuoBlock",
       "item.cavarli.noob_1234567890_ohio_spawn_egg": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO Spawn Egg"
     }
   },
@@ -349,5 +510,5 @@
     "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.cavarli"
   },
-  "mcreatorVersion": 202400342716
+  "mcreatorVersion": 202500110519
 }

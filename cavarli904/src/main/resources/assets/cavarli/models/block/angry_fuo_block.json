@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/calibrated_sculk_sensor_input_side",
+    "up": "minecraft:block/end_portal_frame_side",
+    "north": "minecraft:block/calibrated_sculk_sensor_input_side",
+    "east": "minecraft:block/enchanting_table_side",
+    "south": "minecraft:block/end_portal_frame_side",
+    "west": "minecraft:block/enchanting_table_side",
+    "particle": "minecraft:block/calibrated_sculk_sensor_input_side"
+  },
+  "render_type": "solid"
+}

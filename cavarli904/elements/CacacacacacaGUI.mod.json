@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -25,7 +25,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 146,
-          "y": 50
+          "y": 50,
+          "locked": false
         }
       },
       {
@@ -43,7 +44,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 145,
-          "y": 88
+          "y": 88,
+          "locked": false
         }
       },
       {
@@ -55,7 +57,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 266,
-          "y": 76
+          "y": 76,
+          "locked": false
         }
       },
       {
@@ -70,7 +73,8 @@
             "falpha": 0.0
           },
           "x": 209,
-          "y": 49
+          "y": 49,
+          "locked": false
         }
       },
       {
@@ -85,7 +89,8 @@
             "falpha": 0.0
           },
           "x": 197,
-          "y": 52
+          "y": 52,
+          "locked": false
         }
       },
       {
@@ -101,7 +106,8 @@
             "falpha": 0.0
           },
           "x": 225,
-          "y": 46
+          "y": 46,
+          "locked": false
         }
       }
     ],

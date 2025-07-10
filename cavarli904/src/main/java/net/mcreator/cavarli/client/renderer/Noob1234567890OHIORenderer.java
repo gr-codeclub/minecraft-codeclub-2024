@@ -11,7 +11,7 @@ import net.mcreator.cavarli.entity.Noob1234567890OHIOEntity;
 
 public class Noob1234567890OHIORenderer extends MobRenderer<Noob1234567890OHIOEntity, ChickenModel<Noob1234567890OHIOEntity>> {
 	public Noob1234567890OHIORenderer(EntityRendererProvider.Context context) {
-		super(context, new ChickenModel(context.bakeLayer(ModelLayers.CHICKEN)), 0.5f);
+		super(context, new ChickenModel<Noob1234567890OHIOEntity>(context.bakeLayer(ModelLayers.CHICKEN)), 0.5f);
 	}
 
 	@Override

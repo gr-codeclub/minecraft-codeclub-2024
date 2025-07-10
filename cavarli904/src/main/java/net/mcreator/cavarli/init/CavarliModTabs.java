@@ -29,18 +29,14 @@ public class CavarliModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-
 			tabData.accept(CavarliModBlocks.CAVARLI_BLOCK.get().asItem());
-
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-
 			tabData.accept(CavarliModItems.NOOB_1234567890_OHIO_SPAWN_EGG.get());
+			tabData.accept(CavarliModItems.CAVARLI_CHAIR_SPAWN_EGG.get());
 			tabData.accept(CavarliModItems.CJ_SPAWN_EGG.get());
-
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-
 			tabData.accept(CavarliModItems.LOLC_1234.get());
-
+			tabData.accept(CavarliModItems.HOUSE_WAND_TOOL.get());
 		}
 	}
 }

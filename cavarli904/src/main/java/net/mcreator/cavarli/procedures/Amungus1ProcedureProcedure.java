@@ -4,7 +4,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
-public class Amungus1Procedure {
+public class Amungus1ProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double xOffset = 0;
 		double zOffset = 0;
