@@ -27,6 +27,9 @@ public class CavarliModItems {
 	public static final DeferredItem<Item> LOLC_1234 = REGISTRY.register("lolc_1234", Lolc1234Item::new);
 	public static final DeferredItem<Item> HOUSE_WAND_TOOL = REGISTRY.register("house_wand_tool", HouseWandToolItem::new);
 	public static final DeferredItem<Item> CAVARLI_CHAIR_SPAWN_EGG = REGISTRY.register("cavarli_chair_spawn_egg", () -> new DeferredSpawnEggItem(CavarliModEntities.CAVARLI_CHAIR, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> GYAT_SPAWN_EGG = REGISTRY.register("gyat_spawn_egg", () -> new DeferredSpawnEggItem(CavarliModEntities.GYAT, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> SONIC_SPAWN_EGG = REGISTRY.register("sonic_spawn_egg", () -> new DeferredSpawnEggItem(CavarliModEntities.SONIC, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> SUS_SPAWN_EGG = REGISTRY.register("sus_spawn_egg", () -> new DeferredSpawnEggItem(CavarliModEntities.SUS, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

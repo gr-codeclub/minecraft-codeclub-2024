@@ -16,7 +16,10 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.cavarli.entity.SusEntity;
+import net.mcreator.cavarli.entity.SonicEntity;
 import net.mcreator.cavarli.entity.Noob1234567890OHIOEntity;
+import net.mcreator.cavarli.entity.GyatEntity;
 import net.mcreator.cavarli.entity.CavarliChairEntity;
 import net.mcreator.cavarli.CavarliMod;
 
@@ -31,6 +34,17 @@ public class CavarliModEntities {
 			EntityType.Builder.<CavarliChairEntity>of(CavarliChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<GyatEntity>> GYAT = register("gyat",
+			EntityType.Builder.<GyatEntity>of(GyatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.7f));
+	public static final DeferredHolder<EntityType<?>, EntityType<SonicEntity>> SONIC = register("sonic",
+			EntityType.Builder.<SonicEntity>of(SonicEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.7f));
+	public static final DeferredHolder<EntityType<?>, EntityType<SusEntity>> SUS = register("sus", EntityType.Builder.<SusEntity>of(SusEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+			.sized(0.6f, 1.7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -42,11 +56,17 @@ public class CavarliModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		Noob1234567890OHIOEntity.init(event);
 		CavarliChairEntity.init(event);
+		GyatEntity.init(event);
+		SonicEntity.init(event);
+		SusEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(NOOB_1234567890_OHIO.get(), Noob1234567890OHIOEntity.createAttributes().build());
 		event.put(CAVARLI_CHAIR.get(), CavarliChairEntity.createAttributes().build());
+		event.put(GYAT.get(), GyatEntity.createAttributes().build());
+		event.put(SONIC.get(), SonicEntity.createAttributes().build());
+		event.put(SUS.get(), SusEntity.createAttributes().build());
 	}
 }

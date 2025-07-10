@@ -352,6 +352,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "Gyat",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/client/renderer/GyatRenderer.java",
+          "src/main/resources/data/cavarli/neoforge/biome_modifier/gyat_biome_modifier.json",
+          "src/main/resources/assets/cavarli/models/item/gyat_spawn_egg.json",
+          "src/main/java/net/mcreator/cavarli/entity/GyatEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Sonic",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/entity/SonicEntity.java",
+          "src/main/resources/assets/cavarli/models/item/sonic_spawn_egg.json",
+          "src/main/resources/data/cavarli/neoforge/biome_modifier/sonic_biome_modifier.json",
+          "src/main/java/net/mcreator/cavarli/client/renderer/SonicRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Sus",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavarli/neoforge/biome_modifier/sus_biome_modifier.json",
+          "src/main/java/net/mcreator/cavarli/client/renderer/SusRenderer.java",
+          "src/main/java/net/mcreator/cavarli/entity/SusEntity.java",
+          "src/main/resources/assets/cavarli/models/item/sus_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -370,14 +415,20 @@
       "item.cavarli.cavarli_chair_spawn_egg": "Cavarli Chair Spawn Egg",
       "block.cavarli.cavarli_block": "Cavarli Block",
       "item.cavarli.cavarl_inoob_1234567890": "CAVARL Inoob 1 2 3 4 5 6 7 8 9 0",
+      "item.cavarli.sonic_spawn_egg": "Sonic Spawn Egg",
       "item_group.cavarli.ohiocavarli": "Ohiocavarli",
       "entity.cavarli.cavarli_chair": "Cavarli Chair",
       "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4",
       "gui.cavarli.cacacacacaca_gui.label_empty1": "",
       "item.cavarli.house_wand_tool": "House Wand",
+      "entity.cavarli.sus": "Sus",
       "item.cavarli.lolc_1234": "Lolc 1 2 3 4 Portal Igniter",
       "entity.cavarli.noob_1234567890_ohio": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO",
+      "entity.cavarli.gyat": "Gyat",
       "gui.cavarli.cacacacacaca_gui.label_empty": "",
+      "item.cavarli.gyat_spawn_egg": "Gyat Spawn Egg",
+      "entity.cavarli.sonic": "Sonic",
+      "item.cavarli.sus_spawn_egg": "Sus Spawn Egg",
       "item.cavarli.noob_1234567890_ohio_spawn_egg": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO Spawn Egg"
     }
   },
