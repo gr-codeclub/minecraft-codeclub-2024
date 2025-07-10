@@ -57,6 +57,7 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> MEOW = block(WingsoffireModBlocks.MEOW);
 	public static final DeferredItem<Item> WWW = block(WingsoffireModBlocks.WWW);
 	public static final DeferredItem<Item> TWENTYBLOCKCELEBRATION = block(WingsoffireModBlocks.TWENTYBLOCKCELEBRATION);
+	public static final DeferredItem<Item> IWIN = block(WingsoffireModBlocks.IWIN);
 
 	// Start of user code block custom items
 	// End of user code block custom items
